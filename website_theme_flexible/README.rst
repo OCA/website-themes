@@ -15,7 +15,7 @@ Screenshots
 CSS options
 --------------
 
-.. image:: /website_theme_flexible/static/description/screenshot5.png
+.. image:: /website_theme_flexible/static/description/screenshot5.jpg
    :alt: Layout
 
 Layout options
