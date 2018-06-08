@@ -14,7 +14,6 @@ odoo.define('website_theme_flexible.frontend', function(require) {
             var navbar_clone = navbar.clone();
             navbar_clone.addClass('navbar-fixed-top');
             header.append(navbar_clone);
-            navbar.remove();
         }
     });
 });
