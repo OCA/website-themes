@@ -7,13 +7,11 @@ odoo.define('website_theme_flexible.frontend', function(require) {
     var base = require('web_editor.base');
 
     base.ready().then(function () {
-        var header = $('header');
         var navbar = $('header > .navbar');
 
         if (navbar.attr('data-do-stick') === '1') {
-            var navbar_clone = navbar.clone();
-            navbar_clone.addClass('navbar-fixed-top');
-            header.append(navbar_clone);
+            //TODO: Add nice animation
+            navbar.addClass('navbar-fixed-top');
         }
     });
 });

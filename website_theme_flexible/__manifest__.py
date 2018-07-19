@@ -5,7 +5,7 @@
     'name': 'Theme Flexible',
     'summary': 'Theme Flexible is exceptionally configurable.',
     'category': 'Theme',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.1',
     'author': 'Onestein, Odoo Community Association (OCA)',
     'license': 'AGPL-3',
     'website': 'https://github.com/OCA/website',
