@@ -6,7 +6,7 @@ cache:
     - $HOME/.cache/pip
 
 python:
-  - "2.7"
+  - "3.5"
 
 addons:
   apt:
@@ -31,8 +31,6 @@ env:
   - TESTS="1" ODOO_REPO="odoo/odoo"
   - TESTS="1" ODOO_REPO="OCA/OCB"
 
-virtualenv:
-  system_site_packages: true
 
 install:
   - git clone --depth=1 https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
