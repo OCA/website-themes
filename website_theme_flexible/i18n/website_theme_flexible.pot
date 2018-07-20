@@ -1,0 +1,930 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_theme_flexible
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.layout
+msgid "<span class=\"sr-only\">Toggle navigation</span>\n"
+"                            <span class=\"icon-bar\"/>\n"
+"                            <span class=\"icon-bar\"/>\n"
+"                            <span class=\"icon-bar\"/>"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.layout
+msgid "<span class=\"sr-only\">Toggle navigation</span>\n"
+"                        <span class=\"icon-bar\"/>\n"
+"                        <span class=\"icon-bar\"/>\n"
+"                        <span class=\"icon-bar\"/>"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:17
+#, python-format
+msgid "Alpha"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_dark
+msgid "Amount Alpha Dark"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_darker
+msgid "Amount Alpha Darker"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_light
+msgid "Amount Alpha Light"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_lighter
+msgid "Amount Alpha Lighter"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_dark
+msgid "Amount Beta Dark"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_darker
+msgid "Amount Beta Darker"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_light
+msgid "Amount Beta Light"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_lighter
+msgid "Amount Beta Lighter"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_dark
+msgid "Amount Delta Dark"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_darker
+msgid "Amount Delta Darker"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_light
+msgid "Amount Delta Light"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_lighter
+msgid "Amount Delta Lighter"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_dark
+msgid "Amount Epsilon Dark"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_darker
+msgid "Amount Epsilon Darker"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_light
+msgid "Amount Epsilon Light"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_lighter
+msgid "Amount Epsilon Lighter"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_dark
+msgid "Amount Gamma Dark"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_darker
+msgid "Amount Gamma Darker"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_light
+msgid "Amount Gamma Light"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_lighter
+msgid "Amount Gamma Lighter"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_anchor_color
+msgid "Anchor Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_anchor_footer_color
+msgid "Anchor Footer Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+msgid "Apply"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:357
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:388
+#, python-format
+msgid "Background Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:50
+#, python-format
+msgid "Beta"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_bg_color
+msgid "Bg Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:384
+#, python-format
+msgid "Block Corner Radius"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:379
+#: selection:theme.flexible,layout:0
+#, python-format
+msgid "Boxed"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+msgid "CSS"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/js/theme_customize.js:29
+#, python-format
+msgid "Cancel"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:348
+#: selection:theme.flexible,menu_alignment:0
+#, python-format
+msgid "Center"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+msgid "Close"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:210
+#, python-format
+msgid "Code"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:10
+#, python-format
+msgid "Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_alpha
+msgid "Color Alpha"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_beta
+msgid "Color Beta"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_delta
+msgid "Color Delta"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_epsilon
+msgid "Color Epsilon"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_gamma
+msgid "Color Gamma"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+msgid "Colors"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:335
+#, python-format
+msgid "Company Logo / Website Name Alignment"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_css
+msgid "Css"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+msgid "Customize theme"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:13
+#, python-format
+msgid "Dark"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:14
+#, python-format
+msgid "Darker"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:116
+#, python-format
+msgid "Delta"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:149
+#, python-format
+msgid "Epsilon"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:427
+#, python-format
+msgid "Font"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code
+msgid "Font Code"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_google
+msgid "Font Code Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_italic
+msgid "Font Code Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_underline
+msgid "Font Code Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_weight
+msgid "Font Code Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:364
+#, python-format
+msgid "Font Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:188
+#, python-format
+msgid "Font Family"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1
+msgid "Font Header 1"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_google
+msgid "Font Header 1 Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_italic
+msgid "Font Header 1 Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_underline
+msgid "Font Header 1 Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_weight
+msgid "Font Header 1 Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2
+msgid "Font Header 2"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_google
+msgid "Font Header 2 Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_italic
+msgid "Font Header 2 Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_underline
+msgid "Font Header 2 Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_weight
+msgid "Font Header 2 Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3
+msgid "Font Header 3"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_google
+msgid "Font Header 3 Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_italic
+msgid "Font Header 3 Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_underline
+msgid "Font Header 3 Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_weight
+msgid "Font Header 3 Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4
+msgid "Font Header 4"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_google
+msgid "Font Header 4 Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_italic
+msgid "Font Header 4 Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_underline
+msgid "Font Header 4 Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_weight
+msgid "Font Header 4 Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5
+msgid "Font Header 5"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_google
+msgid "Font Header 5 Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_italic
+msgid "Font Header 5 Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_underline
+msgid "Font Header 5 Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_weight
+msgid "Font Header 5 Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6
+msgid "Font Header 6"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_google
+msgid "Font Header 6 Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_italic
+msgid "Font Header 6 Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_underline
+msgid "Font Header 6 Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_weight
+msgid "Font Header 6 Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu
+msgid "Font Menu"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_google
+msgid "Font Menu Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_italic
+msgid "Font Menu Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_underline
+msgid "Font Menu Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_weight
+msgid "Font Menu Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal
+msgid "Font Normal"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_google
+msgid "Font Normal Google"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_italic
+msgid "Font Normal Italic"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_underline
+msgid "Font Normal Underline"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_weight
+msgid "Font Normal Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+msgid "Fonts"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_footer_bg_color
+msgid "Footer Bg Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:395
+#, python-format
+msgid "Footer Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:378
+#: selection:theme.flexible,layout:0
+#, python-format
+msgid "Full Width"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:83
+#, python-format
+msgid "Gamma"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_res_config_settings_google_font_api_key
+#: model:ir.model.fields,field_description:website_theme_flexible.field_website_google_font_api_key
+msgid "Google Font Api Key"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_google_query
+msgid "Google Query"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:225
+#, python-format
+msgid "Header 1"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:240
+#, python-format
+msgid "Header 2"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:255
+#, python-format
+msgid "Header 3"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:270
+#, python-format
+msgid "Header 4"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:285
+#, python-format
+msgid "Header 5"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:300
+#, python-format
+msgid "Header 6"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_id
+msgid "ID"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:376
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_layout
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+#, python-format
+msgid "Layout"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:347
+#: selection:theme.flexible,menu_alignment:0
+#, python-format
+msgid "Left"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:340
+#: selection:theme.flexible,menu_logo:0
+#, python-format
+msgid "Left / Logo"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:338
+#: selection:theme.flexible,menu_logo:0
+#, python-format
+msgid "Left / Name"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:12
+#, python-format
+msgid "Light"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:11
+#, python-format
+msgid "Lighter"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:402
+#, python-format
+msgid "Link Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:409
+#, python-format
+msgid "Link Color In Footer"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:315
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+#, python-format
+msgid "Menu"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:345
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_alignment
+#, python-format
+msgid "Menu Alignment"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_bg
+msgid "Menu Bg"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_color
+msgid "Menu Color"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_logo
+msgid "Menu Logo"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_sticky
+msgid "Menu Sticky"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.layout
+msgid "My Website"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:9
+#, python-format
+msgid "Name"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:337
+#: selection:theme.flexible,menu_logo:0
+#, python-format
+msgid "None"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:195
+#, python-format
+msgid "Normal"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:439
+#, python-format
+msgid "Please set your Google Fonts API key in the website settings.\n"
+"            You can get your API key"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:380
+#: selection:theme.flexible,layout:0
+#, python-format
+msgid "Postcard"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:349
+#: selection:theme.flexible,menu_alignment:0
+#, python-format
+msgid "Right"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:341
+#: selection:theme.flexible,menu_logo:0
+#, python-format
+msgid "Right / Logo"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:339
+#: selection:theme.flexible,menu_logo:0
+#, python-format
+msgid "Right / Name"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/js/theme_customize.js:28
+#, python-format
+msgid "Select"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/js/theme_customize.js:25
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:199
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:214
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:229
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:244
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:259
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:274
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:289
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:304
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:319
+#, python-format
+msgid "Select Google Font"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_snippet_border_radius
+msgid "Snippet Border Radius"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:353
+#, python-format
+msgid "Sticky"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model.fields,field_description:website_theme_flexible.field_website_theme_flexible_id
+msgid "Theme Flexible"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:187
+#, python-format
+msgid "Type"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.res_config_settings_view_form
+msgid "Use Google Fonts on your website"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:431
+#, python-format
+msgid "Variant"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model,name:website_theme_flexible.model_website
+msgid "Website"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:189
+#, python-format
+msgid "Weight"
+msgstr ""
+
+#. module: website_theme_flexible
+#. openerp-web
+#: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:441
+#, python-format
+msgid "here"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model,name:website_theme_flexible.model_ir_qweb
+msgid "ir.qweb"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
+msgid "or"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model,name:website_theme_flexible.model_res_config_settings
+msgid "res.config.settings"
+msgstr ""
+
+#. module: website_theme_flexible
+#: model:ir.model,name:website_theme_flexible.model_theme_flexible
+msgid "theme.flexible"
+msgstr ""
+
