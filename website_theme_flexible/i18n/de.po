@@ -6,13 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2018-08-31 11:01+0000\n"
+"Last-Translator: Axel-G <git@r5d.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.layout
@@ -21,6 +23,10 @@ msgid "<span class=\"sr-only\">Toggle navigation</span>\n"
 "                            <span class=\"icon-bar\"/>\n"
 "                            <span class=\"icon-bar\"/>"
 msgstr ""
+"<span class=\"sr-only\">Navigation ändern</span>\n"
+"                            <span class=\"icon-bar\"/>\n"
+"                            <span class=\"icon-bar\"/>\n"
+"                            <span class=\"icon-bar\"/>"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.layout
@@ -29,128 +35,132 @@ msgid "<span class=\"sr-only\">Toggle navigation</span>\n"
 "                        <span class=\"icon-bar\"/>\n"
 "                        <span class=\"icon-bar\"/>"
 msgstr ""
+"<span class=\"sr-only\">Navigation ändern</span>\n"
+"                        <span class=\"icon-bar\"/>\n"
+"                        <span class=\"icon-bar\"/>\n"
+"                        <span class=\"icon-bar\"/>"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:17
 #, python-format
 msgid "Alpha"
-msgstr ""
+msgstr "Alpha"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_dark
 msgid "Amount Alpha Dark"
-msgstr ""
+msgstr "Wert Alpha Dunkel"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_darker
 msgid "Amount Alpha Darker"
-msgstr ""
+msgstr "Wert Alpha Dunkler"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_light
 msgid "Amount Alpha Light"
-msgstr ""
+msgstr "Wert Alpha Hell"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_alpha_lighter
 msgid "Amount Alpha Lighter"
-msgstr ""
+msgstr "Wert Alpha Heller"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_dark
 msgid "Amount Beta Dark"
-msgstr ""
+msgstr "Wert Beta Dunkel"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_darker
 msgid "Amount Beta Darker"
-msgstr ""
+msgstr "Wert Beta Dunkler"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_light
 msgid "Amount Beta Light"
-msgstr ""
+msgstr "Wert Beta Hell"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_beta_lighter
 msgid "Amount Beta Lighter"
-msgstr ""
+msgstr "Wert Beta Heller"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_dark
 msgid "Amount Delta Dark"
-msgstr ""
+msgstr "Wert Delta Dunkel"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_darker
 msgid "Amount Delta Darker"
-msgstr ""
+msgstr "Wert Delta Dunkler"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_light
 msgid "Amount Delta Light"
-msgstr ""
+msgstr "Wert Delta Hell"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_delta_lighter
 msgid "Amount Delta Lighter"
-msgstr ""
+msgstr "Wert Delta Heller"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_dark
 msgid "Amount Epsilon Dark"
-msgstr ""
+msgstr "Wert Epsilon Dunkel"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_darker
 msgid "Amount Epsilon Darker"
-msgstr ""
+msgstr "Wert Epsilon Dunkler"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_light
 msgid "Amount Epsilon Light"
-msgstr ""
+msgstr "Wert Epsilon Hell"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_epsilon_lighter
 msgid "Amount Epsilon Lighter"
-msgstr ""
+msgstr "Wert Epsilon Heller"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_dark
 msgid "Amount Gamma Dark"
-msgstr ""
+msgstr "Wert Gamma Dunkel"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_darker
 msgid "Amount Gamma Darker"
-msgstr ""
+msgstr "Wert Gamma Dunkler"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_light
 msgid "Amount Gamma Light"
-msgstr ""
+msgstr "Wert Gamma Hell"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_amount_gamma_lighter
 msgid "Amount Gamma Lighter"
-msgstr ""
+msgstr "Wert Gamma Heller"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_anchor_color
 msgid "Anchor Color"
-msgstr ""
+msgstr "Farbe Anker"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_anchor_footer_color
 msgid "Anchor Footer Color"
-msgstr ""
+msgstr "Farbe Anker in Fußzeile"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 msgid "Apply"
-msgstr ""
+msgstr "Anwenden"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -158,26 +168,26 @@ msgstr ""
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:388
 #, python-format
 msgid "Background Color"
-msgstr ""
+msgstr "Hintergrundfarbe"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:50
 #, python-format
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_bg_color
 msgid "Bg Color"
-msgstr ""
+msgstr "Hintergrundfarbe"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:384
 #, python-format
 msgid "Block Corner Radius"
-msgstr ""
+msgstr "Block-Eckenradius"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -185,19 +195,19 @@ msgstr ""
 #: selection:theme.flexible,layout:0
 #, python-format
 msgid "Boxed"
-msgstr ""
+msgstr "Boxed"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/js/theme_customize.js:29
 #, python-format
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -205,379 +215,379 @@ msgstr ""
 #: selection:theme.flexible,menu_alignment:0
 #, python-format
 msgid "Center"
-msgstr ""
+msgstr "Mitte"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:210
 #, python-format
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:10
 #, python-format
 msgid "Color"
-msgstr ""
+msgstr "Farbe"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_alpha
 msgid "Color Alpha"
-msgstr ""
+msgstr "Farbe Alpha"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_beta
 msgid "Color Beta"
-msgstr ""
+msgstr "Farbe Beta"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_delta
 msgid "Color Delta"
-msgstr ""
+msgstr "Farbe Delta"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_epsilon
 msgid "Color Epsilon"
-msgstr ""
+msgstr "Farbe Epsilon"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_color_gamma
 msgid "Color Gamma"
-msgstr ""
+msgstr "Farbe Gamma"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 msgid "Colors"
-msgstr ""
+msgstr "Farben"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:335
 #, python-format
 msgid "Company Logo / Website Name Alignment"
-msgstr ""
+msgstr "Ausrichtung Unternehmens-Logo / Website-Name"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Erstellt von"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_create_date
 msgid "Created on"
-msgstr ""
+msgstr "Erstellt am"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_css
 msgid "Css"
-msgstr ""
+msgstr "CSS"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 msgid "Customize theme"
-msgstr ""
+msgstr "Theme anpassen"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:13
 #, python-format
 msgid "Dark"
-msgstr ""
+msgstr "Dunkel"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:14
 #, python-format
 msgid "Darker"
-msgstr ""
+msgstr "Dunkler"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:116
 #, python-format
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Anzeigename"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:149
 #, python-format
 msgid "Epsilon"
-msgstr ""
+msgstr "Epsilon"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:427
 #, python-format
 msgid "Font"
-msgstr ""
+msgstr "Schriftart"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code
 msgid "Font Code"
-msgstr ""
+msgstr "Font Code"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_google
 msgid "Font Code Google"
-msgstr ""
+msgstr "Font Code Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_italic
 msgid "Font Code Italic"
-msgstr ""
+msgstr "Font Code kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_underline
 msgid "Font Code Underline"
-msgstr ""
+msgstr "Font Code unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_code_weight
 msgid "Font Code Weight"
-msgstr ""
+msgstr "Font Code Gewichtung"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:364
 #, python-format
 msgid "Font Color"
-msgstr ""
+msgstr "Schriftfarbe"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:188
 #, python-format
 msgid "Font Family"
-msgstr ""
+msgstr "Schriftfamilie"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1
 msgid "Font Header 1"
-msgstr ""
+msgstr "Schriftart Header 1"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_google
 msgid "Font Header 1 Google"
-msgstr ""
+msgstr "Schriftart Header 1 Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_italic
 msgid "Font Header 1 Italic"
-msgstr ""
+msgstr "Schriftart Header 1 kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_underline
 msgid "Font Header 1 Underline"
-msgstr ""
+msgstr "Schriftart Header 1 unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_1_weight
 msgid "Font Header 1 Weight"
-msgstr ""
+msgstr "Schriftart Header 1 Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2
 msgid "Font Header 2"
-msgstr ""
+msgstr "Schriftart Header 2"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_google
 msgid "Font Header 2 Google"
-msgstr ""
+msgstr "Schriftart Header 2 Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_italic
 msgid "Font Header 2 Italic"
-msgstr ""
+msgstr "Schriftart Header 2 kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_underline
 msgid "Font Header 2 Underline"
-msgstr ""
+msgstr "Schriftart Header 2 unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_2_weight
 msgid "Font Header 2 Weight"
-msgstr ""
+msgstr "Schriftart Header 2 Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3
 msgid "Font Header 3"
-msgstr ""
+msgstr "Schriftart Header 3"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_google
 msgid "Font Header 3 Google"
-msgstr ""
+msgstr "Schriftart Header 3 Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_italic
 msgid "Font Header 3 Italic"
-msgstr ""
+msgstr "Schriftart Header 3 kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_underline
 msgid "Font Header 3 Underline"
-msgstr ""
+msgstr "Schriftart Header 3 unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_3_weight
 msgid "Font Header 3 Weight"
-msgstr ""
+msgstr "Schriftart Header 3 Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4
 msgid "Font Header 4"
-msgstr ""
+msgstr "Schriftart Header 4"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_google
 msgid "Font Header 4 Google"
-msgstr ""
+msgstr "Schriftart Header 4 Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_italic
 msgid "Font Header 4 Italic"
-msgstr ""
+msgstr "Schriftart Header 4 kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_underline
 msgid "Font Header 4 Underline"
-msgstr ""
+msgstr "Schriftart Header 4 unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_4_weight
 msgid "Font Header 4 Weight"
-msgstr ""
+msgstr "Schriftart Header 4 Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5
 msgid "Font Header 5"
-msgstr ""
+msgstr "Schriftart Header 5"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_google
 msgid "Font Header 5 Google"
-msgstr ""
+msgstr "Schriftart Header 5 Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_italic
 msgid "Font Header 5 Italic"
-msgstr ""
+msgstr "Schriftart Header 5 kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_underline
 msgid "Font Header 5 Underline"
-msgstr ""
+msgstr "Schriftart Header 5 unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_5_weight
 msgid "Font Header 5 Weight"
-msgstr ""
+msgstr "Schriftart Header 5 Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6
 msgid "Font Header 6"
-msgstr ""
+msgstr "Schriftart Header 6"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_google
 msgid "Font Header 6 Google"
-msgstr ""
+msgstr "Schriftart Header 6 Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_italic
 msgid "Font Header 6 Italic"
-msgstr ""
+msgstr "Schriftart Header 6 kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_underline
 msgid "Font Header 6 Underline"
-msgstr ""
+msgstr "Schriftart Header 6 unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_header_6_weight
 msgid "Font Header 6 Weight"
-msgstr ""
+msgstr "Schriftart Header 6 Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu
 msgid "Font Menu"
-msgstr ""
+msgstr "Schriftart Menüleiste"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_google
 msgid "Font Menu Google"
-msgstr ""
+msgstr "Schriftart Menüleiste Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_italic
 msgid "Font Menu Italic"
-msgstr ""
+msgstr "Schriftart Menüleiste kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_underline
 msgid "Font Menu Underline"
-msgstr ""
+msgstr "Schriftart Menüleiste unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_menu_weight
 msgid "Font Menu Weight"
-msgstr ""
+msgstr "Schriftart Menüleiste Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal
 msgid "Font Normal"
-msgstr ""
+msgstr "Schriftart normal"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_google
 msgid "Font Normal Google"
-msgstr ""
+msgstr "Schriftart normal Google"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_italic
 msgid "Font Normal Italic"
-msgstr ""
+msgstr "Schriftart normal kursiv"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_underline
 msgid "Font Normal Underline"
-msgstr ""
+msgstr "Schriftart normal unterstrichen"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_font_normal_weight
 msgid "Font Normal Weight"
-msgstr ""
+msgstr "Schriftart normal Gewichtung"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 msgid "Fonts"
-msgstr ""
+msgstr "Schriftarten"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_footer_bg_color
 msgid "Footer Bg Color"
-msgstr ""
+msgstr "HIntergrundfarbe Fußzeile"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:395
 #, python-format
 msgid "Footer Color"
-msgstr ""
+msgstr "Farbe Fußzeile"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -585,87 +595,87 @@ msgstr ""
 #: selection:theme.flexible,layout:0
 #, python-format
 msgid "Full Width"
-msgstr ""
+msgstr "Volle Breite"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:83
 #, python-format
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_res_config_settings_google_font_api_key
 #: model:ir.model.fields,field_description:website_theme_flexible.field_website_google_font_api_key
 msgid "Google Font Api Key"
-msgstr ""
+msgstr "Google Font Api Key"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_google_query
 msgid "Google Query"
-msgstr ""
+msgstr "Google Abfrage"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:225
 #, python-format
 msgid "Header 1"
-msgstr ""
+msgstr "Header 1"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:240
 #, python-format
 msgid "Header 2"
-msgstr ""
+msgstr "Header 2"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:255
 #, python-format
 msgid "Header 3"
-msgstr ""
+msgstr "Header 3"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:270
 #, python-format
 msgid "Header 4"
-msgstr ""
+msgstr "Header 4"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:285
 #, python-format
 msgid "Header 5"
-msgstr ""
+msgstr "Header 5"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:300
 #, python-format
 msgid "Header 6"
-msgstr ""
+msgstr "Header 6"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Letzte Änderung am"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Letzte Änderung von"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Letzte Aktualisierung am"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -674,7 +684,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 #, python-format
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -682,7 +692,7 @@ msgstr ""
 #: selection:theme.flexible,menu_alignment:0
 #, python-format
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -690,7 +700,7 @@ msgstr ""
 #: selection:theme.flexible,menu_logo:0
 #, python-format
 msgid "Left / Logo"
-msgstr ""
+msgstr "Links / Logo"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -698,35 +708,35 @@ msgstr ""
 #: selection:theme.flexible,menu_logo:0
 #, python-format
 msgid "Left / Name"
-msgstr ""
+msgstr "Links / Name"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:12
 #, python-format
 msgid "Light"
-msgstr ""
+msgstr "Hell"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:11
 #, python-format
 msgid "Lighter"
-msgstr ""
+msgstr "Heller"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:402
 #, python-format
 msgid "Link Color"
-msgstr ""
+msgstr "Link-Farbe"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:409
 #, python-format
 msgid "Link Color In Footer"
-msgstr ""
+msgstr "Link-Farbe in Fußzeile"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -734,7 +744,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 #, python-format
 msgid "Menu"
-msgstr ""
+msgstr "Menüleiste"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -742,39 +752,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_alignment
 #, python-format
 msgid "Menu Alignment"
-msgstr ""
+msgstr "Ausrichtung Menüleiste"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_bg
 msgid "Menu Bg"
-msgstr ""
+msgstr "Hintergrundfarbe Menüleiste"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_color
 msgid "Menu Color"
-msgstr ""
+msgstr "Farbe Menüleiste"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_logo
 msgid "Menu Logo"
-msgstr ""
+msgstr "Logo Menüleiste"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_menu_sticky
 msgid "Menu Sticky"
-msgstr ""
+msgstr "Sticky-Menüleiste"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.layout
 msgid "My Website"
-msgstr ""
+msgstr "Meine Website"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:9
 #, python-format
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -782,14 +792,14 @@ msgstr ""
 #: selection:theme.flexible,menu_logo:0
 #, python-format
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:195
 #, python-format
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -798,6 +808,8 @@ msgstr ""
 msgid "Please set your Google Fonts API key in the website settings.\n"
 "            You can get your API key"
 msgstr ""
+"Setze den Google Fonts API Key in den Webiste-Einstellungen.\n"
+"            Sie erhalten ihren API key"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -805,7 +817,7 @@ msgstr ""
 #: selection:theme.flexible,layout:0
 #, python-format
 msgid "Postcard"
-msgstr ""
+msgstr "Postcard"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -813,7 +825,7 @@ msgstr ""
 #: selection:theme.flexible,menu_alignment:0
 #, python-format
 msgid "Right"
-msgstr ""
+msgstr "Rechts"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -821,7 +833,7 @@ msgstr ""
 #: selection:theme.flexible,menu_logo:0
 #, python-format
 msgid "Right / Logo"
-msgstr ""
+msgstr "Rechts / Logo"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -829,14 +841,14 @@ msgstr ""
 #: selection:theme.flexible,menu_logo:0
 #, python-format
 msgid "Right / Name"
-msgstr ""
+msgstr "Rechts / Name"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/js/theme_customize.js:28
 #, python-format
 msgid "Select"
-msgstr ""
+msgstr "Auswählen"
 
 #. module: website_theme_flexible
 #. openerp-web
@@ -852,79 +864,79 @@ msgstr ""
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:319
 #, python-format
 msgid "Select Google Font"
-msgstr ""
+msgstr "Wähle Google Font"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_theme_flexible_snippet_border_radius
 msgid "Snippet Border Radius"
-msgstr ""
+msgstr "Snippet-Eckenradius"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:353
 #, python-format
 msgid "Sticky"
-msgstr ""
+msgstr "Sticky Menüleiste"
 
 #. module: website_theme_flexible
 #: model:ir.model.fields,field_description:website_theme_flexible.field_website_theme_flexible_id
 msgid "Theme Flexible"
-msgstr ""
+msgstr "Theme Flexible"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:187
 #, python-format
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.res_config_settings_view_form
 msgid "Use Google Fonts on your website"
-msgstr ""
+msgstr "Benutze Google Fonts auf Ihrer Website"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:431
 #, python-format
 msgid "Variant"
-msgstr ""
+msgstr "Varianate"
 
 #. module: website_theme_flexible
 #: model:ir.model,name:website_theme_flexible.model_website
 msgid "Website"
-msgstr ""
+msgstr "Website"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:189
 #, python-format
 msgid "Weight"
-msgstr ""
+msgstr "Gewichtung"
 
 #. module: website_theme_flexible
 #. openerp-web
 #: code:addons/website_theme_flexible/static/src/xml/theme_customize.xml:441
 #, python-format
 msgid "here"
-msgstr ""
+msgstr "hier"
 
 #. module: website_theme_flexible
 #: model:ir.model,name:website_theme_flexible.model_ir_qweb
 msgid "ir.qweb"
-msgstr ""
+msgstr "ir.qweb"
 
 #. module: website_theme_flexible
 #: model:ir.ui.view,arch_db:website_theme_flexible.theme_customize_theme_flexible
 msgid "or"
-msgstr ""
+msgstr "oder"
 
 #. module: website_theme_flexible
 #: model:ir.model,name:website_theme_flexible.model_res_config_settings
 msgid "res.config.settings"
-msgstr ""
+msgstr "res.config.settings"
 
 #. module: website_theme_flexible
 #: model:ir.model,name:website_theme_flexible.model_theme_flexible
 msgid "theme.flexible"
-msgstr ""
+msgstr "theme.flexible"
