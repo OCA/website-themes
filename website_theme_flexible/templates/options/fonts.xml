@@ -8,7 +8,7 @@
             <t t-if="website and website.theme_flexible_id">
                 <t t-if="website.theme_flexible_id.google_query">
                     <style type="text/less">
-                        @import url("//fonts.googleapis.com/css?family=<t t-esc="website.theme_flexible_id.google_query"/>");
+                        @import url("https://fonts.googleapis.com/css?family=<t t-esc="website.theme_flexible_id.google_query"/>");
                     </style>
                 </t>
 
