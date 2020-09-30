@@ -4,7 +4,9 @@
 
 # Website themes for Odoo
 
-Themes that can be used in the website feature of Odoo.
+Themes that can be used in the website feature of Odoo.It provides structure and layout. When you create a new theme, you are actually extending this. Indeed it’s always enabled in your setup and it acts exactly like the CMS’s base structure, except that you don’t have to create or maintain it. It will upgrade automatically within your Odoo installation and, since it is included in the Website Builder module, everything is smoothly integrated by default.
+
+As a result, you are totally free to focus on design while this structure does the job of providing integrations and functionality.
 
 Translation Status
 ------------------
