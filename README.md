@@ -4,14 +4,10 @@
 
 # Website themes for Odoo
 
-Themes that can be used in the website feature of Odoo.
+*Themes that can be used in the website feature of Odoo.*
 
-Translation Status
-------------------
-[![Transifex Status](https://www.transifex.com/projects/p/OCA-website-themes-11-0/chart/image_png)](https://www.transifex.com/projects/p/OCA-website-themes-11-0)
-
-----
-
-OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+## ABOUT Odoo
+-----------------
+OCA, or the *[Odoo Community Association](http://odoo-community.org/)*, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
