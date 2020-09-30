@@ -2,9 +2,9 @@
    :target: https://www.gnu.org/licenses/agpl
    :alt: License: AGPL-3
 
-==============
-Theme Flexible
-==============
+======================
+Theme Flexible Tool
+======================
 
 This theme is exceptionally configurable.
 You can set the colors, fonts and layout you want (not limited by presets).
