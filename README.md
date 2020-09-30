@@ -5,6 +5,8 @@
 # Website themes for Odoo
 
 Themes that can be used in the website feature of Odoo.
+The themes are created by verified and experienced UI developer for the best experience.
+
 
 Translation Status
 ------------------
@@ -12,6 +14,10 @@ Translation Status
 
 ----
 
-OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+OCA, or the [Odoo Community Association](http://odoo-community.org/), is a non-profit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
+The Community version is libre software, licensed under the GNU LGPLv3.
+Odoo is business management software including CRM, e-commerce, accounting etc.
+Keep supporting us.
+
