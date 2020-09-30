@@ -4,7 +4,7 @@
 
 # Website themes for Odoo
 
-Themes that can be used in the website feature of Odoo.
+Themes which can be used in the website feature of Odoo.
 
 Translation Status
 ------------------
