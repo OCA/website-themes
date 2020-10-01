@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/OCA/website-themes.svg?branch=11.0)](https://travis-ci.org/OCA/website-themes)
 [![codecov](https://codecov.io/gh/OCA/website-themes/branch/11.0/graph/badge.svg)](https://codecov.io/gh/OCA/website-themes)
 
-# Website themes for Odoo
+#Awesome Website Themes For Odoo
 
 Themes that can be used in the website feature of Odoo.
 
