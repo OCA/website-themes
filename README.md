@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/OCA/website-themes.svg?branch=11.0)](https://travis-ci.org/OCA/website-themes)
 [![codecov](https://codecov.io/gh/OCA/website-themes/branch/11.0/graph/badge.svg)](https://codecov.io/gh/OCA/website-themes)
 
-# Website themes for Odoo
+# Website themes for ODOO
 
 Themes that can be used in the website feature of Odoo.
 
@@ -13,5 +13,5 @@ Translation Status
 ----
 
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
+mission is to support the collaboration development of Odoo features and
+promote its widespread uses.
