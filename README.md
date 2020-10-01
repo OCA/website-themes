@@ -6,6 +6,12 @@
 
 Themes that can be used in the website feature of Odoo.
 
+If there is something wrong with the content on that web site,
+feel free to
+[file an issue with this repository](https://github.com/OCA/website-themes/issues),
+or formulate a pull request.
+Note that most pages will come with an edit link in the bottom right corner.
+
 Translation Status
 ------------------
 [![Transifex Status](https://www.transifex.com/projects/p/OCA-website-themes-11-0/chart/image_png)](https://www.transifex.com/projects/p/OCA-website-themes-11-0)
