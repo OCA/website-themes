@@ -2,11 +2,11 @@
 [![Build Status](https://travis-ci.org/OCA/website-themes.svg?branch=11.0)](https://travis-ci.org/OCA/website-themes)
 [![codecov](https://codecov.io/gh/OCA/website-themes/branch/11.0/graph/badge.svg)](https://codecov.io/gh/OCA/website-themes)
 
-# Website themes for Odoo
+# Website themes(distinct code) for Odoo
 
 Themes that can be used in the website feature of Odoo.
 
-Translation Status
+Translation Status go through
 ------------------
 [![Transifex Status](https://www.transifex.com/projects/p/OCA-website-themes-11-0/chart/image_png)](https://www.transifex.com/projects/p/OCA-website-themes-11-0)
 
