@@ -4,6 +4,7 @@
 
 # Website themes for Odoo
 
+Hello developers! Welcome to my repository.
 Themes that can be used in the website feature of Odoo.
 
 Translation Status
