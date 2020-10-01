@@ -4,7 +4,7 @@
 
 # Website themes for Odoo
 
-Themes that can be used in the website feature of Odoo.
+Themes that can be used in the website feature of Odoo. Very useful for Odoo
 
 Translation Status
 ------------------
@@ -14,4 +14,5 @@ Translation Status
 
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
-promote its widespread use.
+promote its widespread use. We ave made this site to promote odoo all over the world . 
+
