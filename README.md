@@ -1,7 +1,7 @@
 [![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/258/11.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-website-themes-${REPO_ID})
 [![Build Status](https://travis-ci.org/OCA/website-themes.svg?branch=11.0)](https://travis-ci.org/OCA/website-themes)
 [![codecov](https://codecov.io/gh/OCA/website-themes/branch/11.0/graph/badge.svg)](https://codecov.io/gh/OCA/website-themes)
-
+logr - misssing  part add
 # Website themes for Odoo
 
 Themes that can be used in the website feature of Odoo.
