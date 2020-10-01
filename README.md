@@ -5,6 +5,7 @@
 # Website themes for Odoo
 
 Themes that can be used in the website feature of Odoo.
+Here is the source of some collections -> https://www.wix.com/website/templates
 
 Translation Status
 ------------------
