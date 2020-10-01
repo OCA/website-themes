@@ -49,7 +49,7 @@ To configure this module, you need to:
 Usage
 =====
 
-To use this module, you need to:
+To use this module, you need to follow this steps:
 
 #. Go to the website;
 #. click in menu on 'Customize';
