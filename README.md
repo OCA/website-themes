@@ -4,6 +4,9 @@
 
 # Website themes for Odoo
 
+what is odoo?
+Odoo is business management software including CRM, e-commerce, billing, accounting, manufacturing, warehouse, project management, and inventory management. The Community version is libre software, licensed under the GNU LGPLv3. There is also a proprietary "Enterprise" version, which has extra features and services. 
+
 Themes that can be used in the website feature of Odoo.
 
 Translation Status
