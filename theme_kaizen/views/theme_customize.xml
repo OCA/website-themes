@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="customize_modal" inherit_id="website.theme_customize" priority="101">
+        <xpath expr="//div" position="replace">
+            <div>
+                <button
+                    class="btn btn-primary btn-reset-colors"
+                    type="button"
+                >Reset all colors to default</button>
+                <content
+                    id="theme_customize_content_colors"
+                    string="Colors"
+                    title="Choose the theme colors"
+                >
+                    <list string="For theme">
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="alpha"
+                            string="Alpha"
+                        />
+                        <!-- TODO <opt data-widget="color" data-color-type="theme" data-color="beta" string="Beta (unused)"/>
+                        <opt data-widget="color" data-color-type="theme" data-color="gamma" string="Gamma (unused)"/>
+                        <opt data-widget="color" data-color-type="theme" data-color="delta" string="Delta (unused)"/>
+                        <opt data-widget="color" data-color-type="theme" data-color="epsilon" string="Epsilon (unused)"/>-->
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="kaizen-2"
+                            string="Main 2"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="kaizen-3"
+                            string="Main 3"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="kaizen-4"
+                            string="Main 4"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="kaizen-5"
+                            string="Main 5"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="kaizen-6"
+                            string="Main 6"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="kaizen-7"
+                            string="Main 7"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="kaizen-8"
+                            string="Main 8"
+                        />
+                    </list>
+                    <list string="For colorpicker">
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-1"
+                            string="Extra 1"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-2"
+                            string="Extra 2"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-3"
+                            string="Extra 3"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-4"
+                            string="Extra 4"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-5"
+                            string="Extra 5"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-6"
+                            string="Extra 6"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-7"
+                            string="Extra 7"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-8"
+                            string="Extra 8"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-9"
+                            string="Extra 9"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-10"
+                            string="Extra 10"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-11"
+                            string="Extra 11"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-12"
+                            string="Extra 12"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-13"
+                            string="Extra 13"
+                        />
+                        <opt
+                            data-widget="color"
+                            data-color-type="theme"
+                            data-color="extra-14"
+                            string="Extra 14"
+                        />
+                    </list>
+                </content>
+            </div>
+        </xpath>
+    </template>
+</odoo>

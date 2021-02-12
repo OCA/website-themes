@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="_assets_primary_variables"
+        inherit_id="website._assets_primary_variables"
+        priority="1"
+    >
+        <xpath expr="//link[last()]" position="after">
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/abstracts/_variables.scss"
+            />
+        </xpath>
+    </template>
+    <template
+        id="_assets_frontend_helpers"
+        inherit_id="website._assets_frontend_helpers"
+        priority="1"
+    >
+        <xpath expr="//link" position="before">
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/base/_helpers.scss"
+            />
+        </xpath>
+    </template>
+    <template id="assets_frontend" inherit_id="website.assets_frontend" priority="1">
+        <xpath expr="//link[last()]" position="after">
+            <!-- Libs -->
+            <link
+                rel="stylesheet"
+                type="text/css"
+                href="/theme_kaizen/static/lib/swiper/swiper-bundle.css"
+            />
+            <!-- Theme -->
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/vendors/_normalize.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/base/_base.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/base/_fonts.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/base/_typography.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/layout/_footer.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/layout/_header.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_breadcrumb.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_button.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_card.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_code.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_dropdown.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_icon.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_input.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_popup.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_progress.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_sidebar.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/components/_links.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/pages/_blog.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/pages/_blog-post.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/pages/_community-centers.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/pages/_home.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/pages/_page.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/pages/_ports.scss"
+            />
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/vendors/_normalize.scss"
+            />
+        </xpath>
+        <xpath expr=".">
+            <script src="/theme_kaizen/static/lib/swiper/swiper-bundle.js" />
+            <script src="/theme_kaizen/static/src/js/frontend.js" />
+        </xpath>
+    </template>
+    <template id="assets_editor" inherit_id="website.assets_editor">
+        <xpath expr="//link[last()]" position="after">
+            <link
+                rel="stylesheet"
+                type="text/scss"
+                href="/theme_kaizen/static/src/scss/editor.scss"
+            />
+        </xpath>
+        <xpath expr=".">
+            <script src="/theme_kaizen/static/src/js/editor.js" />
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,96 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the community centers page.
+// -----------------------------------------------------------------------------
+.community-centers {
+    padding: 90px 0 160px 0;
+    text-align: center;
+
+    @media (max-width: breakpoint-max("md")) {
+        padding: 30px 0 90px 0;
+        text-align: left;
+    }
+
+    .container {
+        @media (min-width: $container-large) {
+            max-width: $container-large;
+        }
+    }
+
+    // Header
+    &__header {
+        margin-bottom: 100px;
+
+        @media (max-width: breakpoint-max("md")) {
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+
+            @media (max-width: breakpoint-max("lg")) {
+                max-width: 600px;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                margin: 0 0 20px 0;
+                max-width: 500px;
+            }
+        }
+
+        p {
+            max-width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p:not(:last-child) {
+            margin-bottom: 25px;
+
+            @media (max-width: breakpoint-max("md")) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    // Body
+    &__body {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 60px;
+
+        @media (max-width: $container-large - 0.02px) {
+            column-gap: 20px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+
+            img {
+                height: 150px;
+                margin-bottom: 15px;
+
+                @media (max-width: breakpoint-max("lg")) {
+                    height: 120px;
+                }
+            }
+
+            h2 {
+                margin-bottom: 10px;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                align-items: flex-start;
+                max-width: 220px;
+            }
+        }
+    }
+}

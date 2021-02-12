@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the dropdown component.
+// -----------------------------------------------------------------------------
+
+// Dropdown
+.dropdown {
+    &-menu {
+        min-width: 100%;
+        margin-top: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border: none;
+
+        @media (min-width: breakpoint-min($lg)) {
+            backface-visibility: hidden;
+            transition: all 0.15s ease-in-out;
+            display: block;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+        }
+    }
+
+    @media (max-width: breakpoint-max("md")) {
+        .angle-icon,
+        .angle-icon-gradient {
+            transform: rotate(270deg) !important;
+        }
+
+        &.show {
+            .angle-icon,
+            .angle-icon-gradient {
+                transform: rotate(360deg) !important;
+            }
+        }
+    }
+
+    &-menu.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    &-item {
+        padding: 10px 20px;
+        line-height: 1.1;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid theme-color("kaizen-5");
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: theme-color("kaizen-5");
+            color: black;
+        }
+    }
+}

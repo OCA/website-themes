@@ -1,0 +1,122 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+#wrapwrap {
+    .btn {
+        font-size: inherit;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        padding: 8px 25px;
+        transition: all 0.3s ease-in-out;
+
+        &:active,
+        &:focus {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    }
+
+    // Button Primary
+    .btn-primary {
+        background-color: theme-color("kaizen-2");
+        border: 1px solid theme-color("kaizen-2");
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: theme-color("kaizen-3") !important;
+            border: 1px solid theme-color("kaizen-3") !important;
+        }
+    }
+
+    // Button Primary Outline
+    .btn-outline-primary {
+        border: 1px solid theme-color("kaizen-3");
+        color: theme-color("kaizen-3");
+        background-color: white;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: theme-color("kaizen-3") !important;
+            color: white !important;
+            border: 1px solid theme-color("kaizen-3") !important;
+        }
+    }
+
+    // Button Secondary
+    .btn-secondary {
+        background-color: theme-color("kaizen-7");
+        border: 1px solid theme-color("kaizen-7");
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: darken(theme-color("kaizen-7"), 10%) !important;
+            border: 1px solid darken(theme-color("kaizen-7"), 10%) !important;
+        }
+    }
+
+    // Button Tertiary
+    .btn-tertiary {
+        background-image: linear-gradient(90deg, #8c3683, #c0474c);
+        border: none;
+        color: white;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: white;
+        }
+    }
+
+    // Button Download
+    .btn-download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+        text-align: left;
+        border: 1px solid black;
+        border-radius: 0;
+
+        .system-icon {
+            height: 57px;
+            width: 57px;
+            object-fit: contain;
+        }
+
+        .download-icon {
+            width: 25px;
+        }
+
+        div {
+            margin: 0 25px;
+
+            @media (max-width: breakpoint-max("lg")) {
+                margin: 0 auto 0 25px;
+            }
+        }
+
+        p {
+            margin-bottom: 0 !important;
+        }
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    // Button Small
+    .btn-small {
+        padding: 5px 16px !important;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    // Button Rounded
+    .btn-rounded {
+        border-radius: 100px;
+    }
+}

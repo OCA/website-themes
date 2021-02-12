@@ -1,0 +1,82 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//-------------
+// Theme colors
+//-------------
+
+$o-theme-color-palettes: append(
+    $o-theme-color-palettes,
+    (
+        "alpha": #7d1f4d,
+        // ubuntu purple
+            "beta": #7d1f4d,
+        // TODO, is derivative of alpha, now unused
+            "gamma": #7d1f4d,
+        // TODO, is derivative of alpha, now unused
+            "delta": #7d1f4d,
+        // TODO, is derivative of alpha, now unused
+            "epsilon": #7d1f4d,
+        // TODO, is derivative of alpha, now unused
+            "kaizen-2": #8b3583,
+        // ubuntu purple light
+            "kaizen-3": #3a0628,
+        // ubuntu purple dark
+            "kaizen-4": #e95420,
+        // ubuntu orange
+            "kaizen-5": #f4f4f4,
+        // off white
+            "kaizen-6": #d8d8d8,
+        // light gray
+            "kaizen-7": #4b39ff,
+        // purple
+            "kaizen-8": #1dbe3b,
+        // green
+            "extra-1": #19a6d3,
+        "extra-2": #6dc57d,
+        "extra-3": #b7ecc7,
+        "extra-4": #f88745,
+        "extra-5": #ca60bb,
+        "extra-6": #c056b8,
+        "extra-7": #6e1054,
+        "extra-8": #310523,
+        "extra-9": #666666,
+        "extra-10": #b2b2b2,
+        "extra-11": #e5e5e5,
+        "extra-12": #f88745,
+        "extra-13": #72c47b,
+        "extra-14": #19a7d4,
+    )
+);
+$o-theme-color-palette-number: length($o-theme-color-palettes);
+
+//---------------
+// Responsiveness
+//---------------
+
+$container-large: 1300px;
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$grid-breakpoints: (
+    xs: $xs,
+    sm: $sm,
+    md: $md,
+    lg: $lg,
+    xl: $xl,
+) !default;
+
+//------
+// Fonts
+//------
+
+$o-theme-fonts: (("Ubuntu", sans-serif)) !default;
+
+$o-theme-font-names: ("Ubuntu") !default;
+
+$o-theme-font-urls: (null);

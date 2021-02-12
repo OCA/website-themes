@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_devices" name="Devices">
+        <section class="snippet_kaizen_devices home-devices">
+            <div class="container">
+                <!-- Text -->
+                <div class="home-devices__text">
+                    <h3>Foundation Core Devices</h3>
+                </div>
+                <!-- Img -->
+                <div class="home-devices__img">
+                    <!-- Device -->
+                    <a href="#" class="device">
+                        <p>PinePhone</p>
+                        <img
+                            src="/theme_kaizen/static/img/homepage/PinePhone.svg"
+                            alt="device-img"
+                        />
+                    </a>
+                    <a href="#" class="device">
+                        <p>Fairphone</p>
+                        <img
+                            src="/theme_kaizen/static/img/homepage/Fairphone.svg"
+                            alt="device-img"
+                        />
+                    </a>
+                    <a href="#" class="device">
+                        <p>Volla</p>
+                        <img
+                            src="/theme_kaizen/static/img/homepage/Volla.svg"
+                            alt="device-img"
+                        />
+                    </a>
+                    <a href="#" class="device">
+                        <p>Nexus 5</p>
+                        <img
+                            src="/theme_kaizen/static/img/homepage/Nexus.svg"
+                            alt="device-img"
+                        />
+                    </a>
+                    <a href="#" class="device">
+                        <p>OnePlus One</p>
+                        <img
+                            src="/theme_kaizen/static/img/homepage/OnePlusOne.svg"
+                            alt="device-img"
+                        />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

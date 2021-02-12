@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@font-face {
+    font-family: "ubuntu";
+    font-display: swap;
+    src: url("/theme_kaizen/static/font/Ubuntu-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ubuntu";
+    font-display: swap;
+    src: url("/theme_kaizen/static/font/Ubuntu-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ubuntu-mono";
+    font-display: swap;
+    src: url("/theme_kaizen/static/font/UbuntuMono-Regular.ttf");
+    font-weight: 300;
+    font-style: normal;
+}

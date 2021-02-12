@@ -1,0 +1,16 @@
+#wrapwrap {
+    header#top {
+        top: 46px !important;
+        .navbar {
+            @media (max-width: breakpoint-max("md")) {
+                top: 46px;
+            }
+        }
+    }
+}
+
+.page-content--sidebar {
+    .sidebar {
+        top: 64px !important;
+    }
+}

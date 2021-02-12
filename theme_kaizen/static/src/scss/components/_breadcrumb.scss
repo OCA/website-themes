@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the breadcrumb component.
+// -----------------------------------------------------------------------------
+.breadcrumbs {
+    padding: 15px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+
+        @media (min-width: $container-large) {
+            max-width: $container-large;
+        }
+    }
+
+    img {
+        margin: 0 15px;
+        transform: rotate(270deg) !important;
+
+        @media (max-width: breakpoint-max("xs")) {
+            margin: 0 10px;
+        }
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    &--bordered {
+        border-bottom: 1px solid theme-color("kaizen-6");
+    }
+}

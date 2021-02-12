@@ -1,0 +1,134 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+#wrapwrap {
+    .footer {
+        margin-top: auto;
+
+        .container {
+            display: flex;
+
+            @media (min-width: $container-large) {
+                max-width: $container-large;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                flex-direction: column;
+            }
+        }
+
+        // Footer Top
+        &-top {
+            background-color: #e5e5e5;
+            padding: 15px 0 20px 0;
+
+            @media (max-width: breakpoint-max("md")) {
+                padding: 30px 0;
+            }
+
+            // Logo
+            .footer-logo {
+                margin-right: 50px;
+
+                @media (max-width: breakpoint-max("lg")) {
+                    margin-right: 20px;
+                }
+
+                @media (max-width: breakpoint-max("md")) {
+                    margin-right: 0;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+
+                a {
+                    display: block;
+                }
+
+                img {
+                    width: 180px;
+                }
+            }
+
+            // Text
+            .footer-text {
+                max-width: 380px;
+                margin: auto;
+                text-align: center;
+                font-size: medium;
+
+                @media (max-width: breakpoint-max("md")) {
+                    margin-bottom: 30px;
+                }
+            }
+
+            // Social
+            .footer-social {
+                margin-left: auto;
+
+                @media (max-width: breakpoint-max("md")) {
+                    margin-left: 0;
+                }
+
+                p {
+                    margin-bottom: 30px;
+                    font-size: 13px;
+
+                    @media (max-width: breakpoint-max("md")) {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                ul {
+                    display: flex;
+
+                    li:not(:last-child) {
+                        margin-right: 10px;
+                    }
+
+                    a {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        // Footer Bottom
+        &-bottom {
+            background-color: #e5e5e5;
+            padding: 15px 0 30px 0;
+
+            @media (max-width: breakpoint-max("sm")) {
+                text-align: center;
+            }
+
+            .container {
+                justify-content: flex-start;
+
+                @media (max-width: breakpoint-max("lg")) {
+                    flex-direction: column;
+                }
+            }
+
+            p {
+                font-size: 13px;
+
+                &:first-child {
+                    @media (max-width: breakpoint-max("sm")) {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            span {
+                margin: 0 10px;
+
+                @media (max-width: breakpoint-max("lg")) {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}

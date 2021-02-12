@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template inherit_id="web_editor.colorpicker" id="colorpicker">
+        <xpath expr="//div[@data-name='theme']" position="inside">
+            <button data-color="extra-1" />
+            <button data-color="extra-2" />
+            <button data-color="extra-3" />
+            <button data-color="extra-4" />
+            <button data-color="extra-5" />
+            <button data-color="extra-6" />
+            <button data-color="extra-7" />
+            <button data-color="extra-8" />
+            <button data-color="extra-9" />
+            <button data-color="extra-10" />
+            <button data-color="extra-11" />
+            <button data-color="extra-12" />
+            <button data-color="extra-13" />
+            <button data-color="extra-14" />
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,130 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+html {
+    scroll-behavior: smooth;
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 113px;
+    margin: -113px 0 0;
+}
+
+#wrapwrap {
+    font-family: "ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    max-width: 100%;
+    letter-spacing: 0;
+
+    /* Height of the fixed header */
+    padding-top: 113px;
+
+    :target {
+        display: block;
+        position: relative;
+        top: -113px;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: breakpoint-max("md")) {
+    #wrapwrap {
+        /* Height of the fixed header */
+        padding-top: 90px;
+    }
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+body.backdrop::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+body.backdrop.scroll-down::after {
+    opacity: 0;
+    visibility: hidden;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+video {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+main ul {
+    list-style-type: disc;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

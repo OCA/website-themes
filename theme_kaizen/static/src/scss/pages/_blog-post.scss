@@ -1,0 +1,66 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the blog post page.
+// -----------------------------------------------------------------------------
+
+// Hero
+.blog-post-hero {
+    position: relative;
+
+    img {
+        width: 100%;
+
+        @media (max-width: breakpoint-max("sm")) {
+            min-height: 400px;
+            object-fit: cover;
+        }
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+// Content
+.blog-post-content {
+    padding: 50px 0 80px 0;
+
+    .container {
+        @media (min-width: breakpoint-min("xl")) {
+            max-width: 1060px;
+        }
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4 {
+        margin-bottom: 25px;
+    }
+
+    p,
+    code {
+        margin-bottom: 25px;
+        font-size: 15px;
+
+        @media (max-width: breakpoint-max("xs")) {
+            font-size: 14px;
+        }
+    }
+
+    img {
+        margin-bottom: 45px;
+
+        @media (max-width: breakpoint-max("xs")) {
+            margin-bottom: 25px;
+        }
+    }
+
+    & .container > *:last-child {
+        margin: 0;
+    }
+}

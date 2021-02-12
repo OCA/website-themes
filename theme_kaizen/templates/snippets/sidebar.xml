@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_sidebar" name="Sidebar">
+        <!-- Page Content -->
+        <section class="kaizen_snippet_sidebar page-content page-content--sidebar">
+            <div class="container">
+                <!-- Content -->
+                <div class="content oe_structure">
+                </div>
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <a
+                        class="sidebar-toggler h3 light d-lg-none"
+                        data-toggle="collapse"
+                        href="#sidebarCollapse"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="sidebarCollapse"
+                    >
+                        Jump Section <img
+                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                            alt="angle-icon"
+                            class="angle-icon-gradient"
+                        />
+                    </a>
+                    <div class="collapse" id="sidebarCollapse">
+                        <!-- Banner -->
+                        <div class="sidebar-banner">
+                            <p
+                                class="bold"
+                            >Hub Center Can help to decide where you belong in our community</p>
+                            <button
+                                class="btn btn-secondary btn-block rounded-0"
+                            >Go To Community Center!</button>
+                        </div>
+                        <!-- Navigation -->
+                        <div class="sidebar-navigation">
+                            <h3 class="light">Navigation</h3>
+                            <ul id="sidebarNavigation">
+                                <li>
+                                    <a
+                                        class="list-group-item"
+                                        href="#overview"
+                                    >Overview</a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="list-group-item"
+                                        href="#culture"
+                                    >Culture</a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="list-group-item"
+                                        href="#resources"
+                                    >Resources</a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="list-group-item"
+                                        href="#discussions"
+                                    >Discussions</a>
+                                </li>
+                                <li>
+                                    <a class="list-group-item" href="#faqs">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

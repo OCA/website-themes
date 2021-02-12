@@ -1,0 +1,150 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the blog page.
+// -----------------------------------------------------------------------------
+// Hero
+.blog-hero {
+    img {
+        width: 100%;
+    }
+}
+
+// Nav
+.blog-nav {
+    font-size: 15px;
+    padding: 30px 0 20px 0;
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+// Helper
+.bg-green {
+    background-color: theme-color("kaizen-8");
+}
+
+// Posts
+.blog-posts {
+    margin-bottom: 250px;
+
+    h1 {
+        margin-bottom: 55px;
+
+        @media (max-width: breakpoint-max("md")) {
+            margin-bottom: 30px;
+        }
+    }
+
+    // Grid
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 45px;
+        row-gap: 35px;
+
+        @media (max-width: breakpoint-max("md")) {
+            grid-template-columns: 1fr;
+            row-gap: 25px;
+        }
+    }
+
+    // Post
+    .blog-post {
+        border-radius: 5px;
+        border: 1px solid theme-color("kaizen-5");
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        transform: translate3d(0, 0, 0);
+
+        &__icon {
+            flex: 0 0 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px;
+
+            img {
+                height: 50px;
+                margin-bottom: 5px;
+            }
+
+            @media (max-width: breakpoint-max("lg")) {
+                flex: 0 0 25%;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                flex: 0 0 20%;
+            }
+
+            @media (max-width: breakpoint-min("xs")) {
+                flex: 0 0 25%;
+            }
+        }
+
+        &__text {
+            flex: 0 0 80%;
+            padding: 15px 25px;
+
+            .h4 {
+                margin-bottom: 15px;
+
+                span {
+                    @media (max-width: breakpoint-max("xs")) {
+                        display: block;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+            }
+
+            p:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            p img {
+                width: 15px;
+                margin-right: 5px;
+            }
+
+            @media (max-width: breakpoint-max("lg")) {
+                flex: 0 0 75%;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                flex: 0 0 80%;
+            }
+
+            @media (max-width: breakpoint-max("xs")) {
+                padding: 20px;
+            }
+
+            @media (max-width: breakpoint-min("xs")) {
+                flex: 0 0 75%;
+            }
+        }
+
+        &:hover {
+            transform: translate3d(0, -2px, 0);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+            @media (max-width: breakpoint-max("md")) {
+                transform: none;
+                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    @media (max-width: breakpoint-max("md")) {
+        margin-bottom: 150px;
+    }
+
+    @media (max-width: breakpoint-max("xs")) {
+        margin-bottom: 100px;
+    }
+}

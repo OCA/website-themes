@@ -1,0 +1,523 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the ports page.
+// -----------------------------------------------------------------------------
+
+// Ports
+.ports {
+    padding-bottom: 200px;
+    overflow: hidden;
+
+    @media (max-width: breakpoint-max("lg")) {
+        padding-bottom: 120px;
+    }
+
+    @media (max-width: breakpoint-max("md")) {
+        padding-bottom: 35px;
+    }
+
+    .container {
+        display: flex;
+
+        @media (min-width: $container-large) {
+            max-width: $container-large;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            flex-direction: column;
+        }
+    }
+
+    // Sidebar
+    .sidebar {
+        flex: 0 0 30%;
+        position: relative;
+
+        ul {
+            list-style-type: none;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            flex: 0;
+        }
+
+        .sidebar-toggler {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 10;
+            padding: 17px 0;
+
+            .value {
+                margin-left: auto;
+                margin-right: 25px;
+                padding-left: 15px;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 200%;
+                height: 1px;
+                background-color: theme-color("kaizen-6");
+                z-index: -1;
+                transform: translateX(-50%);
+            }
+
+            &::before {
+                @media (max-width: breakpoint-max("md")) {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    height: 100%;
+                    width: 150%;
+                    transform: translateX(-50%);
+                    background-color: white;
+                    z-index: -1;
+                }
+            }
+        }
+
+        .collapse {
+            @media (min-width: breakpoint-min($lg)) {
+                display: block;
+            }
+        }
+
+        .collapsing {
+            transition: height 0.5s ease;
+        }
+
+        .nav-tabs {
+            position: relative;
+            border: none;
+
+            .nav-item {
+                margin: 0;
+            }
+
+            .nav-item.show .nav-link,
+            .nav-link.active {
+                font-weight: 700;
+                color: black;
+                letter-spacing: 0;
+                border-bottom: 5px solid theme-color("kaizen-4");
+            }
+
+            .nav-link {
+                border-radius: 0;
+                border: none;
+                border-bottom: 5px solid transparent;
+                padding: 15px 25px 10px 25px;
+                font-size: 18px;
+                letter-spacing: 0.035em;
+
+                @media (max-width: breakpoint-max("lg")) {
+                    font-size: 16px;
+                    padding: 15px 15px 10px 15px;
+                }
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                height: 1px;
+                width: 5000px;
+                background-color: theme-color("kaizen-6");
+                z-index: -1;
+                transform: translateX(-25%);
+
+                @media (max-width: breakpoint-max("md")) {
+                    display: none;
+                }
+            }
+        }
+
+        .input {
+            margin-bottom: 10px;
+        }
+
+        .tab-content,
+        .built-with {
+            margin-right: 30px;
+        }
+
+        .tab-content {
+            margin-bottom: 60px;
+            position: relative;
+
+            @media (max-width: breakpoint-max("md")) {
+                margin: 0;
+                background-color: theme-color("kaizen-5");
+                padding: 15px 0;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    width: 200%;
+                    height: 100%;
+                    background-color: theme-color("kaizen-5");
+                    z-index: -1;
+                    transform: translateX(-50%);
+                }
+            }
+
+            .h3 {
+                margin-bottom: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            li {
+                padding: 0 !important;
+                padding-left: 15px !important;
+                line-height: 1.6;
+                color: theme-color("kaizen-3");
+                border: none;
+                border-left: 5px solid transparent;
+                border-radius: 0;
+                font-size: 18px;
+
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+
+                &.active {
+                    color: theme-color("kaizen-3");
+                    font-weight: 700;
+                    border-left: 5px solid theme-color("kaizen-3");
+                }
+
+                @media (max-width: breakpoint-max("md")) {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 150%;
+            background-color: theme-color("kaizen-6");
+            z-index: -1;
+
+            @media (max-width: breakpoint-max("md")) {
+                height: 100%;
+                width: 150%;
+                right: 50%;
+                transform: translateX(50%);
+                display: none;
+            }
+        }
+    }
+
+    // Content
+    .content {
+        flex: 0 0 70%;
+        padding-left: 50px;
+        padding-top: 100px;
+
+        @media (max-width: breakpoint-max("md")) {
+            padding-left: 0;
+            padding-top: 25px;
+            flex: 0;
+        }
+    }
+
+    .heading {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 35px;
+
+        .title {
+            padding-right: 45px;
+
+            @media (max-width: breakpoint-max("md")) {
+                width: 100%;
+                padding-right: 0;
+            }
+
+            div {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                @media (max-width: breakpoint-max("md")) {
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            width: auto;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .progress {
+        margin-bottom: 40px;
+    }
+
+    .steps {
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .features {
+        font-family: "ubuntu-mono";
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        line-height: 1.6;
+
+        & > div:not(:last-child) {
+            padding-right: 25px;
+            list-style-type: none;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            list-style-type: none;
+        }
+    }
+
+    .specifications {
+        margin-bottom: 25px;
+
+        .table {
+            font-family: "ubuntu-mono";
+            width: auto;
+            margin-bottom: 0;
+            color: black;
+
+            @media (max-width: breakpoint-max("md")) {
+                width: 100%;
+            }
+        }
+
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #ededed;
+        }
+
+        .table-striped tbody tr:nth-of-type(even) {
+            background-color: #ededed85;
+        }
+
+        .table td,
+        .table th {
+            padding: 1px 80px 1px 15px;
+            border-top: 5px solid white;
+            white-space: nowrap;
+
+            @media (max-width: breakpoint-max("md")) {
+                padding: 1px 15px;
+            }
+        }
+    }
+
+    .bugs {
+        margin-bottom: 25px;
+    }
+
+    .solutions {
+        margin-bottom: 50px;
+    }
+
+    .ports-banner {
+        position: relative;
+        padding: 25px 0;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -50px;
+            height: 100%;
+            width: 200%;
+            background-color: #f3f3f3;
+            z-index: -1;
+
+            @media (max-width: breakpoint-max("md")) {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    .installer {
+        margin-bottom: 10px;
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        .btns {
+            margin-bottom: 30px;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 50px;
+
+            @media (max-width: $container-large - 0.02) {
+                column-gap: 10px;
+            }
+
+            @media (max-width: breakpoint-max("lg")) {
+                grid-template-columns: 1fr;
+                row-gap: 15px;
+            }
+        }
+
+        p:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    .no-installer {
+        margin-bottom: 60px;
+
+        @media (max-width: breakpoint-max("md")) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .contributes-discussions {
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+        column-gap: 30px;
+
+        .h3 {
+            margin-bottom: 25px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
+    .contributes {
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 8px;
+            row-gap: 15px;
+            list-style-type: none;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #f3f3f3;
+        }
+
+        img {
+            width: 50px;
+        }
+
+        p {
+            margin-left: 20px;
+
+            @media (max-width: breakpoint-max("lg")) {
+                margin-left: 10px;
+            }
+
+            @media (max-width: breakpoint-max("sm")) {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .discussions {
+        ul {
+            padding-left: 15px;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        img {
+            margin-right: 12px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .built-with {
+        background-color: #f3f3f3;
+        border-radius: 20px;
+        position: relative;
+        padding: 60px 100px 60px 40px;
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 30%;
+
+            @media (max-width: breakpoint-max("md")) {
+                width: auto;
+                height: 80%;
+            }
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: $container-large - 0.02) {
+            padding: 60px 60px 60px 40px;
+        }
+
+        @media (max-width: breakpoint-max("lg")) {
+            padding: 40px 40px 40px 30px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            margin-top: 35px;
+            padding: 60px 80px 60px 40px;
+        }
+
+        @media (max-width: 370px) {
+            padding: 40px 60px 40px 20px;
+        }
+    }
+
+    .choose-device {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0;
+    }
+}

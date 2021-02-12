@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>questions
+    <template id="snippet_faq" name="Frequently Asked Questions">
+        <!-- FAQ's -->
+        <section class="snippet_kaizen_faq pt64 pb64">
+            <div class="container">
+                <h2 class="h2">Take a second to read common answers</h2>
+                <!-- Questions -->
+                <div class="questions">
+                    <ul class="accordion">
+                        <!-- Question -->
+                        <li>
+                            <!-- Toggler -->
+                            <a
+                                href="#"
+                                data-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                            >
+                                Where do I report bugs?
+                                <img
+                                    class="angle-icon"
+                                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                                    alt="angle-icon"
+                                />
+                            </a>
+                            <!-- Collapse -->
+                            <div class="collapse" data-parent="#pageFaqs">
+                                <p
+                                >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you trying to learn a new skill or get better at something you already know how to do? Are you looking for something to add to your CV for volunteering and community engagement? Maybe you just really love the mobile platform and want to see it thrive. </p>
+                            </div>
+                        </li>
+                        <!-- Question -->
+                        <li>
+                            <!-- Toggler -->
+                            <a
+                                href="#"
+                                data-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                            >
+                                How can I use an SD card for extra storage?
+                                <img
+                                    class="angle-icon"
+                                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                                    alt="angle-icon"
+                                />
+                            </a>
+                            <!-- Collapse -->
+                            <div class="collapse" data-parent="#pageFaqs">
+                                <p
+                                >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you trying to learn a new skill or get better at something you already know how to do? Are you looking for something to add to your CV for volunteering and community engagement? Maybe you just really love the mobile platform and want to see it thrive. </p>
+                            </div>
+                        </li>
+                        <!-- Question -->
+                        <li>
+                            <!-- Toggler -->
+                            <a
+                                href="#"
+                                data-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                            >
+                                Where do I report bugs?
+                                <img
+                                    class="angle-icon"
+                                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                                    alt="angle-icon"
+                                />
+                            </a>
+                            <!-- Collapse -->
+                            <div class="collapse" data-parent="#pageFaqs">
+                                <p
+                                >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you trying to learn a new skill or get better at something you already know how to do? Are you looking for something to add to your CV for volunteering and community engagement? Maybe you just really love the mobile platform and want to see it thrive. </p>
+                            </div>
+                        </li>
+                        <!-- Question -->
+                        <li>
+                            <!-- Toggler -->
+                            <a
+                                href="#"
+                                data-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                            >
+                                Where can I get information on the "core packages"?
+                                <img
+                                    class="angle-icon"
+                                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                                    alt="angle-icon"
+                                />
+                            </a>
+                            <!-- Collapse -->
+                            <div class="collapse" data-parent="#pageFaqs">
+                                <p
+                                >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you trying to learn a new skill or get better at something you already know how to do? Are you looking for something to add to your CV for volunteering and community engagement? Maybe you just really love the mobile platform and want to see it thrive. </p>
+                            </div>
+                        </li>
+                        <!-- Question -->
+                        <li>
+                            <!-- Toggler -->
+                            <a
+                                href="#"
+                                data-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                            >
+                                What is Ubuntu for Android and how does it work with Ubuntu Touch?
+                                <img
+                                    class="angle-icon"
+                                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                                    alt="angle-icon"
+                                />
+                            </a>
+                            <!-- Collapse -->
+                            <div class="collapse" data-parent="#pageFaqs">
+                                <p
+                                >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you trying to learn a new skill or get better at something you already know how to do? Are you looking for something to add to your CV for volunteering and community engagement? Maybe you just really love the mobile platform and want to see it thrive. </p>
+                            </div>
+                        </li>
+                        <!-- Question -->
+                        <li>
+                            <!-- Toggler -->
+                            <a
+                                href="#"
+                                data-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                            >
+                                Where do I report Ubuntu Touch bugs?
+                                <img
+                                    class="angle-icon"
+                                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                                    alt="angle-icon"
+                                />
+                            </a>
+                            <!-- Collapse -->
+                            <div class="collapse" data-parent="#pageFaqs">
+                                <p
+                                >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you trying to learn a new skill or get better at something you already know how to do? Are you looking for something to add to your CV for volunteering and community engagement? Maybe you just really love the mobile platform and want to see it thrive. </p>
+                            </div>
+                        </li>
+                        <!-- Question -->
+                        <li>
+                            <!-- Toggler -->
+                            <a
+                                href="#"
+                                data-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                            >
+                                Where do I report Ubuntu Touch bugs?
+                                <img
+                                    class="angle-icon"
+                                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                                    alt="angle-icon"
+                                />
+                            </a>
+                            <!-- Collapse -->
+                            <div class="collapse" data-parent="#pageFaqs">
+                                <p
+                                >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you trying to learn a new skill or get better at something you already know how to do? Are you looking for something to add to your CV for volunteering and community engagement? Maybe you just really love the mobile platform and want to see it thrive. </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <p><span class="bold">Have question?</span> Email Joe.</p>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
