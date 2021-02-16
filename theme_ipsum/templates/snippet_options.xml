@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_options" inherit_id="website.snippet_options">
+        <xpath expr=".">
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".snippet_ipsum_contributors .swiper-slide"
+            />
+            <div
+                data-js="collapse"
+                data-selector='.snippet_ipsum_faq, .snippet_ipsum_faq .questions li'
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".snippet_ipsum_faq .questions li"
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".breadcrumbs > .container > a, .breadcrumbs > .container > img"
+                data-drop-near=".breadcrumbs > .container > a, .breadcrumbs > .container > img"
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".snippet_ipsum_links li"
+                data-drop-near=".snippet_ipsum_links li"
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".snippet_ipsum_discussions li"
+                data-drop-near=".snippet_ipsum_discussions li"
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".snippet_ipsum_content_listing > div"
+                data-drop-near=".snippet_ipsum_content_listing > div"
+            />
+            <div
+                data-selector=".snippet_ipsum_links, .snippet_ipsum_discussions, .snippet_ipsum_content_listing"
+                data-drop-in=".ipsum_snippet_sidebar .content"
+            />
+            <!-- Mega menu snippets -->
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".o_mega_menu .header-banner"
+                data-drop-in=".o_mega_menu .container"
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".o_mega_menu .header-links-group"
+                data-drop-near=".o_mega_menu .header-links-group"
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector=".o_mega_menu .header-links-group > div"
+                data-drop-near=".o_mega_menu .header-links-group > div"
+            />
+            <div
+                data-js="snippet_ipsum"
+                data-selector="#sidebarNavigation > li"
+                data-drop-near="#sidebarNavigation > li"
+            />
+        </xpath>
+    </template>
+</odoo>

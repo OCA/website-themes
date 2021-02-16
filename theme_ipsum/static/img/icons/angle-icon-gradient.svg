@@ -1,0 +1,35 @@
+<svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 30 30"
+><defs><style
+        >.cls-1{opacity:0.9;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:none;stroke:#fff;stroke-linecap:square;stroke-miterlimit:10;stroke-width:2px;}</style><linearGradient
+            id="linear-gradient"
+            x1="-911.41"
+            y1="538.65"
+            x2="-912.42"
+            y2="537.65"
+            gradientTransform="matrix(0, 30, 30, 0, -16126, 27376)"
+            gradientUnits="userSpaceOnUse"
+        ><stop offset="0" stop-color="#e95420" /><stop
+                offset="1"
+                stop-color="#8b3583"
+            /></linearGradient></defs><title>angle-icon-gradient</title><g
+        id="Group_7"
+        data-name="Group 7"
+        class="cls-1"
+    ><g id="darkarrow"><path
+                id="Rectangle_Copy_10"
+                data-name="Rectangle Copy 10"
+                class="cls-2"
+                d="M30,15h0A15,15,0,0,1,15,30h0A15,15,0,0,1,0,15H0A15,15,0,0,1,15,0h0A15,15,0,0,1,30,15Z"
+                transform="translate(0)"
+            /></g></g><path
+        id="Combined_Shape"
+        data-name="Combined Shape"
+        class="cls-3"
+        d="M15,17.71l-5-5Zm5-5L15,17.6Zm-.77.77-5,4.89Z"
+        transform="translate(0)"
+    /></svg>

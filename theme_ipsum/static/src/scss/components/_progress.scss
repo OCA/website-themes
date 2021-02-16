@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the progress component.
+// -----------------------------------------------------------------------------
+.progress {
+    border-radius: 100px;
+    background-color: #efedec;
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #8c3683, #c0474c);
+    border-radius: 100px;
+}

@@ -1,0 +1,23 @@
+<svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 11 11"
+><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient
+            id="linear-gradient"
+            x1="-1901.18"
+            y1="18.8"
+            x2="-1912.19"
+            y2="7.82"
+            gradientTransform="translate(-1902.5 17.5) rotate(180)"
+            gradientUnits="userSpaceOnUse"
+        ><stop offset="0" stop-color="#e95420" /><stop
+                offset="1"
+                stop-color="#8b3583"
+            /></linearGradient></defs><title>bullet-gradient</title><circle
+        class="cls-1"
+        cx="5.5"
+        cy="5.5"
+        r="5.5"
+    /></svg>

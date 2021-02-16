@@ -1,0 +1,72 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Colors
+$gray-light: #d8d8d8;
+$off-white: #f4f4f4;
+$purple: #4b39ff;
+$green: #1dbe3b;
+$red: #ff3961;
+
+// Ubuntu Colors
+$ubuntu-purple: #7d1f4d;
+$ubuntu-purple-light: #8b3583;
+$ubuntu-purple-dark: #3a0628;
+$ubuntu-orange: #e95420;
+
+// Container Sizes
+$container-large: 1300px;
+
+// Extra Colors
+$extra-1: #19a6d3;
+$extra-2: #6dc57d;
+$extra-3: #b7ecc7;
+$extra-4: #f88745;
+$extra-6: #c056b8;
+$extra-7: #6e1054;
+$extra-8: #310523;
+$extra-9: #666666;
+$extra-10: #b2b2b2;
+$extra-11: #e5e5e5;
+$extra-12: #f88745;
+$extra-13: #72c47b;
+$extra-14: #19a7d4;
+$extra-15: #ca60bb;
+
+// Odoo theme colors
+$theme-colors: (
+    "alpha": $ubuntu-purple,
+    "beta": $ubuntu-purple-light,
+    "gamma": $ubuntu-purple-dark,
+    "delta": $ubuntu-orange,
+    "epsilon": $off-white,
+    "extra-1": $extra-1,
+    "extra-2": $extra-2,
+    "extra-3": $extra-3,
+    "extra-4": $extra-4,
+    "extra-6": $extra-6,
+    "extra-7": $extra-7,
+    "extra-8": $extra-8,
+    "extra-9": $extra-9,
+    "extra-10": $extra-10,
+    "extra-11": $extra-11,
+    "extra-12": $extra-12,
+    "extra-13": $extra-13,
+    "extra-14": $extra-14,
+    "extra-15": $extra-15,
+);
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$grid-breakpoints: (
+    xs: $xs,
+    sm: $sm,
+    md: $md,
+    lg: $md,
+    xl: $xl,
+) !default;
