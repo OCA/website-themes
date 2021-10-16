@@ -12,6 +12,12 @@ You can set the colors, fonts and layout you want (not limited by presets).
 Screenshots
 ===========
 
+CSS options
+-----------
+
+.. image:: /website_theme_flexible/static/description/screenshot5.jpg
+   :alt: Layout
+
 Layout options
 --------------
 
@@ -65,7 +71,7 @@ Bug Tracker
 ===========
 
 Bugs are tracked on `GitHub Issues
-<https://github.com/OCA/website/issues>`_. In case of trouble, please
+<https://github.com/OCA/website-themes/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
 help us smash it by providing detailed and welcomed feedback.
 
