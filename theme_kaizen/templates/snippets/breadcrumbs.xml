@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_breadcrumbs" name="Breadcrumbs">
+        <!-- Breadcrumbs -->
+        <section class="breadcrumbs breadcrumbs--bordered">
+            <div class="container">
+                <a href="#">Home</a>
+                <img
+                    class="angle-icon r-270"
+                    src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                    alt="angle-icon"
+                />
+                <a href="#">Community</a>
+            </div>
+        </section>
+    </template>
+</odoo>
