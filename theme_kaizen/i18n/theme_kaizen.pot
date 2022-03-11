@@ -1,0 +1,942 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_kaizen
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "#Matrix On Freenode"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media_alt
+msgid "&gt;&gt; Check community repo"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media
+msgid "&gt;&gt; Check our repo"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_hero_1
+msgid "+1,500"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippets
+msgid "<i class=\"fa fa-th-large\"/> Theme"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Audiocast: </span>\n"
+"                                    Dalton Interview Episode #56"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Audiocast: </span>\n"
+"                                    Florian Interview Episode #57"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Blog: </span>\n"
+"                                    Introduction to Clickable - Miguel Menéndez Carrion"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Blog: </span>Ubuntu Touch safety architecture"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Dalton</span>"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Florian</span>"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Joan</span>"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid ""
+"<span class=\"arrow\">⟶</span>\n"
+"                                    <span class=\"bold\">Youtube: </span>Joan Ubucon Europ 19"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid "<span class=\"bold\">Have question?</span> Email Joe."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "About"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.blogs_nav
+msgid "All"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Alpha"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media_alt
+msgid ""
+"As a consequence the system is developed with the sole purpose of giving the best and most secure user\n"
+"                        experience possible, while traditional systems balance these concern against profit."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Audiocast"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Blog"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Blog &amp; Live"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.posts_loop
+msgid "By"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_contributors
+msgid "By Neothethird"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_hero_1
+msgid "Check Devices"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Choose the theme colors"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_content_listing
+msgid "Code of conduct"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Colors"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Communities Hub"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_breadcrumbs
+msgid "Community"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media_alt
+msgid "Community Comit Together."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Community Values"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_content_listing
+msgid "Company Philosophy"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Company [English]"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Core"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "Core Apps"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "Core Dev"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Culture"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Daily Announcements"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Design Hub"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_design
+msgid "Designed to last."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media
+msgid ""
+"Developed as an open source project, Ubuntu Touch contains no hidden nuts "
+"and bolts."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Development Hub"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Discussions"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Ethos"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 1"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 10"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 11"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 12"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 13"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 14"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 2"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 3"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 4"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 5"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 6"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 7"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 8"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Extra 9"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "FAQ"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_devices
+msgid "Fairphone"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid "Follow Us"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "For All"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "For Communites"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "For Designers"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "For Developers"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "For Marketers"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "For Testers &amp; Writers"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "For colorpicker"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "For theme"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "Forum OS Selection"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "Forum Porting"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Forum Section"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Foundation"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_devices
+msgid "Foundation Core Devices"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media
+msgid "Fully Transparent OS"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Go To Community Center!"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid "Go to Person"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Governance and Membership"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Grid"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Guidliness"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Halium Project"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_breadcrumbs
+msgid "Home"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid "How can I use an SD card for extra storage?"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Hub Center"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Hub Center Can help to decide where you belong in our community"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Icons"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "It’s your time to shine"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Jump Section"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_posts
+msgid "Latest updates"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid "License CC-BY-SA-4.0<span>•</span>"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Life in the community"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "Lomiri Dev"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class=\"d-none"
+" d-xl-inline\">•</span>"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Main 2"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Main 3"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Main 4"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Main 5"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Main 6"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Main 7"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Main 8"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Manifesto"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Marketers Hub"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Marketing Incubator"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Mastodon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+msgid "Media"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Navigation"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_devices
+msgid "Nexus 5"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Nice Form"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid ""
+"No matter what your background is or where you live, you can hope on board and join us in the battle\n"
+"                        of freedom."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_devices
+msgid "OnePlus One"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid ""
+"Our telegram group is a meeting point for people who shape the direction of "
+"Ubuntu Touch."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Overflow"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Overview"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_devices
+msgid "PinePhone"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Porting"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid "Powered By Odoo Community Association (OCA)"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Previous QA"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Privacy concern"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid "Privacy policy"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Quality Assurance"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media_alt
+msgid ""
+"Rather than being developed by one of the richest companies in the world, Ubuntu touch is fully developed by\n"
+"                        the community of users."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_design
+msgid ""
+"Rather than being developed individually for each device, Ubuntu Touch runs the exact same operative system on\n"
+"                    all phones."
+msgstr ""
+
+#. module: theme_kaizen
+#. openerp-web
+#: code:addons/theme_kaizen/static/src/xml/frontend.xml:0
+#, python-format
+msgid "Read More"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_content_listing
+msgid "Recognition"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Reddit"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.customize_modal
+msgid "Reset all colors to default"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_links
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+msgid "Resources"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_contributors
+msgid "Sony Xperia X"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Sponsors"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid "Take a second to read common answers"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_contributors
+msgid "Team &amp; Individual Contributers"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "Telegram Main Groups"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Telegram New Channel"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid "Terms &amp; conditions<span>•</span>"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Tester's Hub"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid ""
+"This company is a global non-profit dedicated to putting you in control of your the future of\n"
+"                            the mobile for the public good."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_design
+msgid ""
+"This means that your phone will continue to receive software updates for years after traditional vendors would\n"
+"                    drop support."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Transparency"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid "Twitter"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "UX &amp; Graphics"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "Ubuntu Touch Support"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_hero_1
+msgid "Users visited our download section in the last 7 days."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_devices
+msgid "Volla"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_hero_1
+msgid "We are Innovative and community driven."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_content_listing
+msgid "We are an Agile team"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_hero_1
+msgid "We building a better alternative operating system for your smartphone."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+msgid ""
+"We dare to dream about a future where users, developers and companies alike can define smart-phones\n"
+"                        together."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "We recommend you start"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid "What is Ubuntu for Android and how does it work with Ubuntu Touch?"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_content_listing
+msgid ""
+"Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you\n"
+"                        trying to learn a new skill or get better at something you already know how to do? Are you looking for\n"
+"                        something to add to your CV for volunteering and community engagement? Maybe you just really love the\n"
+"                        mobile platform and want to see it thrive."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid ""
+"Whatever your goals are, we're here to help you be successful, no matter "
+"your measure of success. Are you trying to learn a new skill or get better "
+"at something you already know how to do? Are you looking for something to "
+"add to your CV for volunteering and community engagement? Maybe you just "
+"really love the mobile platform and want to see it thrive."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid "Where can I get information on the \"core packages\"?"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid "Where do I report Ubuntu Touch bugs?"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+msgid "Where do I report bugs?"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media
+msgid ""
+"Your data are kept exactly where you want it: on your device, and nowhere else unless you explicitly ask for\n"
+"                        it."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_hero_1
+msgid "Yumi, community mascot."
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_breadcrumbs
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_contributors
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_faq
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_sidebar
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.submenu
+msgid "angle-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "banner-img"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "bullet-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.posts_loop
+msgid "calendar-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_devices
+msgid "device-img"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_1
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_2
+msgid "external-link-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_hero_1
+msgid "hero-img"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_content_listing
+msgid "icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "irc-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_media_alt
+msgid "media-img"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.posts_loop
+msgid "post-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid "social-media-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "telegram-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_menu_3
+msgid "there"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.snippet_discussions
+msgid "yumi-icon"
+msgstr ""
+
+#. module: theme_kaizen
+#: model_terms:theme.ir.ui.view,arch:theme_kaizen.frontend_layout
+msgid "© Copyright 2020.<span class=\"d-none d-xl-inline\">•</span>"
+msgstr ""
