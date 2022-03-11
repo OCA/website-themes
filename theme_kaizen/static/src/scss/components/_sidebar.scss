@@ -1,0 +1,127 @@
+// Page Content Sidebar
+.page-content--sidebar {
+    padding: 80px 0 50px 0;
+
+    @media (max-width: breakpoint-max("lg")) {
+        padding: 50px 0;
+    }
+
+    @media (max-width: breakpoint-max("md")) {
+        padding: 30px 0;
+    }
+
+    .container {
+        @media (min-width: $container-large) {
+            max-width: $container-large;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .content {
+        padding-right: 100px;
+
+        @media (max-width: $container-large - 0.02) {
+            padding-right: 60px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            padding-right: 0;
+        }
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 16px;
+        flex: 0 0 30%;
+
+        .collapse {
+            @media (min-width: breakpoint-min($lg)) {
+                display: block !important;
+            }
+        }
+
+        &-banner {
+            border: 1px solid theme-color("kaizen-6");
+            background-color: theme-color("kaizen-5");
+            padding: 25px;
+            margin-bottom: 25px;
+
+            .btn {
+                margin-top: 15px;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                margin-top: 10px;
+            }
+        }
+
+        &-navigation {
+            h3 {
+                margin-bottom: 25px;
+            }
+
+            ul {
+                padding-left: 25px;
+                li {
+                    list-style-type: none;
+                }
+            }
+
+            a {
+                padding: 0 !important;
+                padding-left: 12px !important;
+                line-height: 2.5;
+                background-color: white;
+                color: black;
+                border: none;
+                border-left: 3px solid theme-color("kaizen-6");
+                border-radius: 0;
+                letter-spacing: 0.029em;
+
+                &.active {
+                    border-color: black;
+                    font-weight: 700;
+                    letter-spacing: 0;
+                }
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                margin-bottom: 25px;
+            }
+        }
+
+        &-toggler {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 15px 0;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            position: relative;
+            top: 0;
+            width: 100%;
+            flex: 0;
+            margin-bottom: 35px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                height: 1px;
+                width: 200%;
+                background-color: theme-color("kaizen-6");
+                transform: translateX(-50%);
+            }
+        }
+    }
+}

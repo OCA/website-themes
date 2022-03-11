@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="frontend_layout" inherit_id="portal.frontend_layout">
+        <xpath expr="//nav[hasclass('navbar')]" position="attributes">
+            <attribute
+                name="class"
+            >navbar navbar-expand-lg o_no_autohide_menu</attribute>
+        </xpath>
+        <!-- Add custom toggler icon to user menu -->
+        <xpath expr="//div[hasclass('js_usermenu')]/..//span/.." position="after">
+            <img
+                class="angle-icon"
+                src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                alt="angle-icon"
+            />
+        </xpath>
+        <xpath expr="//footer" position="replace">
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- Footer Top -->
+                <div class="footer-top">
+                    <div class="container">
+                        <!-- Logo -->
+                        <div class="footer-logo">
+                            <p
+                                class="bold"
+                            >Powered By Odoo Community Association (OCA)</p>
+                            <span
+                                t-field="website.logo"
+                                t-options="{'widget': 'image'}"
+                                role="img"
+                                t-att-aria-label="'Logo of %s' % website.name"
+                                t-att-title="website.name"
+                            />
+                        </div>
+                        <!-- Text -->
+                        <p
+                            class="footer-text"
+                        >This company is a global non-profit dedicated to putting you in control of your the future of
+                            the mobile for the public good.</p>
+                        <!-- Social -->
+                        <div class="footer-social">
+                            <p class="bold">Follow Us</p>
+                            <ul>
+                                <!-- Icon -->
+                                <li t-if="website.social_linkedin">
+                                    <a
+                                        t-att-href="website.social_linkedin"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="/theme_kaizen/static/img/icons/linkedin.svg"
+                                            alt="social-media-icon"
+                                            class="social-media-icon"
+                                        />
+                                    </a>
+                                </li>
+                                <!-- Icon -->
+                                <li t-if="website.social_facebook">
+                                    <a
+                                        t-att-href="website.social_facebook"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="/theme_kaizen/static/img/icons/facebook.svg"
+                                            alt="social-media-icon"
+                                            class="social-media-icon"
+                                        />
+                                    </a>
+                                </li>
+                                <!-- Icon -->
+                                <li t-if="website.social_twitter">
+                                    <a
+                                        t-att-href="website.social_twitter"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="/theme_kaizen/static/img/icons/twitter.svg"
+                                            alt="social-media-icon"
+                                            class="social-media-icon"
+                                        />
+                                    </a>
+                                </li>
+                                <!-- Icon -->
+                                <li t-if="website.social_youtube">
+                                    <a
+                                        t-att-href="website.social_youtube"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="/theme_kaizen/static/img/icons/youtube.svg"
+                                            alt="social-media-icon"
+                                            class="social-media-icon"
+                                        />
+                                    </a>
+                                </li>
+                                <!-- Icon -->
+                                <li t-if="website.social_github">
+                                    <a
+                                        t-att-href="website.social_github"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="/theme_kaizen/static/img/icons/github.svg"
+                                            alt="social-media-icon"
+                                            class="social-media-icon"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p>© Copyright 2020.<span
+                                class="d-none d-xl-inline"
+                            >•</span></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span
+                                class="d-none d-xl-inline"
+                            >•</span></p>
+                        <p class="d-none d-lg-flex">
+                            <a href="#">License CC-BY-SA-4.0<span>•</span></a>
+                            <a href="#">Terms &amp; conditions<span>•</span></a>
+                            <a href="#">Privacy policy</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+    <!-- Add custom toggler icon -->
+    <template id="submenu" inherit_id="website.submenu">
+        <xpath expr="//a[@data-toggle='dropdown']/span" position="after">
+            <img
+                class="angle-icon"
+                src="/theme_kaizen/static/img/icons/angle-icon.svg"
+                alt="angle-icon"
+            />
+        </xpath>
+    </template>
+    <!-- Disable default fixed header -->
+    <record id="website.affix_top_menu" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+</odoo>

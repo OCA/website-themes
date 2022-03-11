@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="snippets" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_content']" position="after">
+            <div id="snippet_theme" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large" /> Theme
+                </div>
+                <div class="o_panel_body">
+                    <t
+                        t-snippet="theme_kaizen.snippet_hero_1"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_cover.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_devices"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_references.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_contributors"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_company_team.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_media"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_image.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_media_alt"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_image_text.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_design"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_posts"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_products_recently_viewed.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_breadcrumbs"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_separator.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_faq"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_faq.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_sidebar"
+                        t-thumbnail="/website_blog/static/src/img/s_latest_posts.jpg"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_content_listing"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_features_grid.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_links"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.png"
+                    />
+                    <t
+                        t-snippet="theme_kaizen.snippet_discussions"
+                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_features.png"
+                    />
+                </div>
+            </div>
+        </xpath>
+        <xpath
+            expr="//div[@id='snippet_mega_menu']//div[hasclass('o_panel_body')]"
+            position="inside"
+        >
+            <t
+                t-snippet="theme_kaizen.snippet_menu_1"
+                t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.png"
+            />
+            <t
+                t-snippet="theme_kaizen.snippet_menu_2"
+                t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_menu_image_menu.png"
+            />
+            <t
+                t-snippet="theme_kaizen.snippet_menu_3"
+                t-thumbnail="/website/static/src/img/snippets_thumbs/s_mega_menu_menu_image_menu.png"
+            />
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,59 @@
+<svg
+    id="Group_10"
+    data-name="Group 10"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 35 19"
+><defs><style
+        >.cls-1{opacity:0.5;}.cls-2{fill:none;}.cls-3{fill:url(#linear-gradient);}.cls-4{opacity:0.6;}.cls-5{fill:url(#linear-gradient-2);}.cls-6{fill:url(#linear-gradient-3);}</style><linearGradient
+            id="linear-gradient"
+            x1="-915.82"
+            y1="474.24"
+            x2="-913.67"
+            y2="473.46"
+            gradientTransform="matrix(35, 0, 0, -7, 32028, 3332)"
+            gradientUnits="userSpaceOnUse"
+        ><stop offset="0" stop-color="#e95420" /><stop
+                offset="1"
+                stop-color="#8b3583"
+            /></linearGradient><linearGradient
+            id="linear-gradient-2"
+            x1="-915.82"
+            y1="474.24"
+            x2="-913.67"
+            y2="473.46"
+            gradientTransform="matrix(35, 0, 0, -7, 32028, 3326)"
+            xlink:href="#linear-gradient"
+        /><linearGradient
+            id="linear-gradient-3"
+            x1="-915.82"
+            y1="474.24"
+            x2="-913.67"
+            y2="473.46"
+            gradientTransform="matrix(35, 0, 0, -7, 32028, 3320)"
+            xlink:href="#linear-gradient"
+        /></defs><title>icon-2</title><g id="Rectangle" class="cls-1"><path
+            id="Rectangle-2"
+            class="cls-2"
+            d="M0,15.16,18.58,12,35,15.16,17.86,19Z"
+        /><path
+            id="Rectangle-3"
+            class="cls-3"
+            d="M0,15.16,18.58,12,35,15.16,17.86,19Z"
+        /></g><g id="Rectangle-4" class="cls-4"><path
+            id="Rectangle-5"
+            class="cls-2"
+            d="M0,9.16,18.58,6,35,9.16,17.86,13Z"
+        /><path
+            id="Rectangle-6"
+            class="cls-5"
+            d="M0,9.16,18.58,6,35,9.16,17.86,13Z"
+        /></g><g id="Rectangle-7"><path
+            id="Rectangle-8"
+            class="cls-2"
+            d="M0,3.16,18.58,0,35,3.16,17.86,7Z"
+        /><path
+            id="Rectangle-9"
+            class="cls-6"
+            d="M0,3.16,18.58,0,35,3.16,17.86,7Z"
+        /></g></svg>

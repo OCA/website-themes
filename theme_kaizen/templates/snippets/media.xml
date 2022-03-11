@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_media" name="Media Right">
+        <section class="snippet_kaizen_media home-media" id="homeMedia1">
+            <div class="container">
+                <!-- Text -->
+                <div class="home-media__text">
+                    <h1 data-aos="fade-right" data-aos-anchor="#homeMedia1">
+                        Fully Transparent OS
+                    </h1>
+                    <a
+                        href="#"
+                        class="link"
+                        data-aos="fade-right"
+                        data-aos-anchor="#homeMedia1"
+                        data-aos-delay="150"
+                    >
+                        >> Check our repo
+                    </a>
+                    <p
+                        data-aos="fade-right"
+                        data-aos-anchor="#homeMedia1"
+                        data-aos-delay="300"
+                    >Developed as an open source project, Ubuntu Touch contains no hidden nuts and bolts.</p>
+                    <p
+                        data-aos="fade-right"
+                        data-aos-anchor="#homeMedia1"
+                        data-aos-delay="450"
+                    >Your data are kept exactly where you want it: on your device, and nowhere else unless you explicitly ask for
+                        it.</p>
+                </div>
+                <!-- Img -->
+                <div class="home-media__img">
+                    <img
+                        src="/theme_kaizen/static/img/homepage/media-1-mobile.jpg"
+                        alt="media-img"
+                    />
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

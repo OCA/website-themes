@@ -1,0 +1,110 @@
+/**
+ * Basic typography style for copy text
+ */
+#wrapwrap {
+    h1,
+    h2,
+    h3,
+    h4,
+    .h1,
+    .h2,
+    .h3,
+    .h4 {
+        font-weight: 700;
+        line-height: 1.1;
+        font-family: "ubuntu", sans-serif;
+    }
+
+    h1,
+    .h1 {
+        font-size: 72px;
+
+        @media (max-width: $container-large - 0.02) {
+            font-size: 60px;
+        }
+
+        @media (max-width: breakpoint-max("lg")) {
+            font-size: 50px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            font-size: 40px;
+        }
+    }
+
+    h2,
+    .h2 {
+        font-size: 56px;
+
+        @media (max-width: $container-large - 0.02) {
+            font-size: 50px;
+        }
+
+        @media (max-width: breakpoint-max("lg")) {
+            font-size: 40px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            font-size: 32px;
+        }
+    }
+
+    h3,
+    .h3 {
+        font-size: 32px;
+
+        @media (max-width: breakpoint-max("lg")) {
+            font-size: 28px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            font-size: 24px;
+        }
+    }
+
+    h4,
+    .h4 {
+        font-size: 20px;
+    }
+
+    h5,
+    .h5 {
+        font-family: "ubuntu", sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    p {
+        a {
+            text-decoration: underline;
+            color: #6e1054;
+            margin-bottom: 0px;
+            display: inline;
+        }
+
+        a:hover,
+        a:focus {
+            text-decoration: underline;
+            color: #6e1054;
+        }
+    }
+
+    .link {
+        color: theme-color("kaizen-7");
+    }
+
+    .link:hover,
+    .link:focus,
+    .link:active {
+        color: theme-color("alpha");
+    }
+}

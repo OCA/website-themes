@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the code component.
+// -----------------------------------------------------------------------------
+.code {
+    display: block;
+    font-family: "ubuntu-mono";
+    font-size: 15px;
+    background-color: #f3f3f3;
+    color: black;
+    padding: 15px;
+    border-left: 10px solid theme-color("alpha");
+
+    &--solid {
+        color: white;
+        background-color: theme-color("kaizen-3");
+        border-left: none;
+    }
+}

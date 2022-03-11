@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the input component.
+// -----------------------------------------------------------------------------
+
+.input {
+    background-color: theme-color("kaizen-5");
+    width: 100%;
+    border: 1px solid #dadada;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px 25px;
+    transition: all 0.3s ease;
+}
+
+.input::placeholder {
+    color: #bdbdbd;
+}
+
+input:focus {
+    border: 1px solid black;
+}

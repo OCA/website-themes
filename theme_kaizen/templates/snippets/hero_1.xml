@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_hero_1" name="Hero">
+        <section class="snippet_kaizen_hero_1 home-hero" id="homeHero">
+            <div class="container">
+                <!-- Text -->
+                <div class="home-hero__text">
+                    <h1
+                        class="h2"
+                        data-aos="fade-up"
+                        data-aos-delay="150"
+                        data-aos-anchor="#homeHero"
+                    >We building a better alternative operating system for your smartphone.</h1>
+                    <p
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-aos-anchor="#homeHero"
+                    >We are Innovative and community driven.</p>
+                    <div
+                        data-aos="fade-up"
+                        data-aos-delay="450"
+                        data-aos-anchor="#homeHero"
+                    >
+                        <button class="btn btn-primary">Check Devices</button>
+                    </div>
+                    <div
+                        class="home-hero__visits"
+                        data-aos="fade-up"
+                        data-aos-delay="600"
+                        data-aos-anchor="#homeHero"
+                    >
+                        <h2>+1,500</h2>
+                        <h4
+                            class="light ml-4"
+                        >Users visited our download section in the last 7 days.</h4>
+                    </div>
+                </div>
+                <!-- Img -->
+                <div class="home-hero__img">
+                    <img
+                        src="/theme_kaizen/static/img/homepage/hero.jpg"
+                        alt="hero-img"
+                        title="Yumi, community mascot."
+                    />
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

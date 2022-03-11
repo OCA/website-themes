@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+// Text
+.bold {
+    font-weight: 700 !important;
+}
+
+.light {
+    font-weight: 300 !important;
+}
+
+// Transform
+.r-45 {
+    transform: rotate(45deg);
+}
+
+.r-90 {
+    transform: rotate(90deg);
+}
+
+.r-180 {
+    transform: rotate(180deg);
+}
+
+.r-270 {
+    transform: rotate(270deg);
+}
+
+.r-360 {
+    transform: rotate(90deg);
+}

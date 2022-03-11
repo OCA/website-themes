@@ -1,0 +1,254 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the regular page.
+// -----------------------------------------------------------------------------
+
+// Hero
+.page-hero {
+    img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+// Page Content
+.page-content {
+    padding: 80px 0 120px 0;
+
+    @media (max-width: breakpoint-max("md")) {
+        padding: 40px 0 60px 0;
+        overflow: hidden;
+    }
+
+    .container {
+        display: flex;
+        align-items: flex-start;
+
+        @media (min-width: $container-large) {
+            max-width: 1100px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            flex-direction: column;
+        }
+    }
+
+    .content {
+        flex: 0 0 70%;
+        padding-right: 45px;
+
+        .h1,
+        .h2 {
+            margin-bottom: 45px;
+            line-height: 1;
+
+            @media (max-width: breakpoint-max("md")) {
+                margin-bottom: 35px;
+            }
+        }
+
+        .h3 {
+            margin-bottom: 35px;
+
+            @media (max-width: $container-large - 0.02) {
+                margin-bottom: 25px;
+            }
+        }
+
+        .h4 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 35px;
+            line-height: 1.5;
+
+            @media (max-width: breakpoint-max("md")) {
+                margin-bottom: 25px;
+            }
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            flex: 0;
+            padding-right: 0;
+        }
+    }
+
+    .read-more {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 120px;
+        flex: 0 0 30%;
+        color: white;
+        padding: 40px 50px;
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            line-height: 1.75;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(
+                90deg,
+                theme-color("kaizen-2"),
+                theme-color("kaizen-4")
+            );
+            z-index: -1;
+
+            @media (max-width: breakpoint-max("md")) {
+                width: 150%;
+                transform: translateX(-15%);
+            }
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            flex: 0;
+            width: 100%;
+            margin-top: 20px;
+            padding: 40px 0 45px 0;
+            position: relative;
+            top: 0;
+        }
+    }
+}
+
+// Resources
+.page-resources {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    line-height: 2;
+
+    @media (max-width: $container-large - 0.02) {
+        flex-direction: column;
+    }
+
+    & > div:not(:last-child) {
+        margin-right: 30px;
+        margin-bottom: 50px;
+
+        @media (max-width: $container-large - 0.02) {
+            margin-bottom: 40px;
+            margin-right: 0;
+        }
+    }
+
+    .arrow {
+        margin-right: 15px;
+    }
+}
+
+// Discussions
+.page-discussions {
+    ul {
+        display: flex;
+        padding-left: 30px;
+        flex-wrap: wrap;
+
+        li {
+            min-width: 185px;
+            margin-bottom: 30px;
+            padding-right: 15px;
+            list-style-type: none;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+// FAQ's
+.snippet_kaizen_faq {
+    background-color: theme-color("kaizen-5");
+    margin-bottom: 4px;
+
+    @media (max-width: breakpoint-max("md")) {
+        padding: 50px 0;
+    }
+
+    .container {
+        @media (min-width: breakpoint-min("xl")) {
+            max-width: $container-large;
+        }
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 50px;
+
+        @media (max-width: breakpoint-max("md")) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .questions {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    ul {
+        margin-bottom: 50px;
+
+        @media (max-width: breakpoint-max("md")) {
+            margin-bottom: 40px;
+        }
+    }
+
+    li {
+        background-color: white;
+        border-radius: 6px;
+        padding: 12px 20px;
+        list-style-type: none;
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        & > a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.3s ease;
+            letter-spacing: 0.029em;
+
+            img {
+                transition: all 0.3s ease;
+            }
+
+            &[aria-expanded="true"] {
+                font-weight: 700;
+                color: theme-color("kaizen-7");
+                letter-spacing: 0;
+            }
+
+            &[aria-expanded="false"] {
+                img {
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+
+        .collapse p,
+        .collapsing p {
+            margin-top: 8px;
+        }
+    }
+}

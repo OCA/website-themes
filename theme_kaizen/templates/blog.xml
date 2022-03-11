@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="blogs_nav" inherit_id="website_blog.blogs_nav">
+        <xpath expr="." position="replace">
+            <!-- Nav -->
+            <div class="blog-nav" t-if="len(blogs) > 1">
+                <div class="container">
+                    <p>
+                        <a
+                            href="#"
+                            t-attf-href="/blog"
+                            t-attf-class="#{not blog and 'font-weight-bold' or ''}"
+                        >All</a>
+                        <span class="mx-1">|</span>
+                        <t t-foreach="blogs" t-as="nav_blog">
+                            <a
+                                href="#"
+                                t-attf-href="/blog/#{slug(nav_blog)}"
+                                t-attf-class="#{blog and nav_blog.id == blog.id and 'font-weight-bold' or ''}"
+                            >
+                                <span t-field="nav_blog.name" />
+                            </a>
+                            <t t-if="blogs[-1].id != nav_blog.id">
+                                <span class="mx-1">|</span>
+                            </t>
+                        </t>
+                    </p>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <template id="posts_loop" inherit_id="website_blog.posts_loop">
+        <xpath expr="." position="replace">
+            <!-- Posts -->
+            <div class="blog-posts">
+                <div class="container">
+                    <!-- Posts Grid -->
+                    <div class="blog-posts__grid">
+                        <!-- Post -->
+                        <t t-foreach="posts" t-as="blog_post">
+                            <a
+                                t-attf-href="/blog/#{slug(blog_post.blog_id)}/post/#{slug(blog_post)}"
+                                class="blog-post"
+                            >
+                                <!-- Icon -->
+                                <div class="blog-post__icon bg-green">
+                                    <img
+                                        src="/theme_kaizen/static/img/icons/microphone.svg"
+                                        alt="post-icon"
+                                    />
+                                </div>
+                                <!-- Text -->
+                                <div class="blog-post__text">
+                                    <h4 class="light" t-field="blog_post.name" />
+                                    <p class="bold">By<span
+                                            class="ml-1"
+                                            t-field="blog_post.author_id"
+                                        /></p>
+                                    <p>
+                                        <img
+                                            src="/theme_kaizen/static/img/icons/calendar.svg"
+                                            alt="calendar-icon"
+                                        />
+                                        <time
+                                            t-field="blog_post.post_date"
+                                            class="text-nowrap px-2"
+                                            t-options='{"format": "MMM d, yyyy"}'
+                                        />
+                                    </p>
+                                </div>
+                            </a>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

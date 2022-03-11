@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_links" name="Links">
+        <div class="snippet_kaizen_links pt200">
+            <!-- Page Links -->
+            <div class="page-links">
+                <!-- Resources -->
+                <div class="page-resources">
+                    <!-- Resources -->
+                    <div>
+                        <h2 class="h3 light">Resources</h2>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span class="bold">Blog: </span>
+                                    Introduction to Clickable - Miguel Menéndez Carrion
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span
+                                        class="bold"
+                                    >Blog: </span>Ubuntu Touch safety architecture
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Media -->
+                    <div>
+                        <h2 class="h3 light">Media</h2>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span class="bold">Audiocast: </span>
+                                    Florian Interview Episode #57
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span class="bold">Audiocast: </span>
+                                    Dalton Interview Episode #56
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Go to Person -->
+                    <div>
+                        <h2 class="h3 light">Go to Person</h2>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span class="bold">Dalton</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span class="bold">Florian</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span class="bold">Joan</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="arrow">⟶</span>
+                                    <span
+                                        class="bold"
+                                    >Youtube: </span>Joan Ubucon Europ 19
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

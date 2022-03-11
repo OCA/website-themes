@@ -1,0 +1,115 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the popup component.
+// -----------------------------------------------------------------------------
+.popup {
+    @media (min-width: breakpoint-min("sm")) {
+        .modal-dialog {
+            max-width: 510px;
+        }
+    }
+
+    @media (min-width: breakpoint-min($md)) {
+        .modal-dialog {
+            max-width: 690px;
+        }
+    }
+
+    @media (min-width: breakpoint-min($lg)) {
+        .modal-dialog {
+            max-width: 930px;
+        }
+    }
+
+    @media (min-width: breakpoint-min("xl")) {
+        .modal-dialog {
+            max-width: 1110px;
+        }
+    }
+
+    @media (min-width: $container-large) {
+        .modal-dialog {
+            max-width: 1220px;
+        }
+    }
+
+    .modal-content {
+        border-radius: 15px;
+        border: none;
+    }
+
+    // Modal Header
+    .modal-header {
+        border: none;
+        padding: 35px 25px;
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border: none;
+            background-color: transparent;
+
+            img {
+                width: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    // Modal Body
+    .modal-body {
+        padding: 25px 0 125px 80px;
+        max-width: 70%;
+        position: relative;
+        z-index: 2;
+
+        .h1 {
+            margin-bottom: 30px;
+
+            @media (max-width: breakpoint-max("sm")) {
+                font-size: 40px;
+            }
+        }
+
+        p {
+            max-width: 680px;
+
+            @media (max-width: breakpoint-max("lg")) {
+                max-width: 500px;
+            }
+
+            @media (max-width: breakpoint-max("md")) {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: breakpoint-max("lg")) {
+            padding: 15px 0 80px 80px;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            padding: 15px 25px 100px 25px;
+            max-width: 100%;
+        }
+
+        @media (max-width: breakpoint-max("sm")) {
+            padding: 0 25px 60px 25px;
+        }
+    }
+
+    .bg-img {
+        position: absolute;
+        bottom: 0;
+        right: 8%;
+        height: 100%;
+        z-index: 0;
+
+        img {
+            height: 100%;
+        }
+
+        @media (max-width: breakpoint-max("md")) {
+            display: none;
+        }
+    }
+}
