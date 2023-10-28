@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_design" name="Design">
+        <section class="snippet_kaizen_design home-design">
+            <div class="container">
+                <h3>Designed to last.</h3>
+                <p
+                >Rather than being developed individually for each device, Ubuntu Touch runs the exact same operative system on
+                    all phones.</p>
+                <p
+                >This means that your phone will continue to receive software updates for years after traditional vendors would
+                    drop support.</p>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_media_alt" name="Media Left">
+        <section
+            class="snippet_kaizen_media_alt home-media home-media--alt"
+            id="homeMedia2"
+        >
+            <div class="container">
+                <!-- Text -->
+                <div class="home-media__text">
+                    <h2
+                        class="h1"
+                        data-aos="fade-left"
+                        data-aos-anchor="#homeMedia2"
+                    >Community Comit Together.</h2>
+                    <a
+                        href="#"
+                        class="link"
+                        data-aos="fade-left"
+                        data-aos-anchor="#homeMedia2"
+                        data-aos-delay="150"
+                    >>> Check community repo</a>
+                    <p
+                        data-aos="fade-left"
+                        data-aos-anchor="#homeMedia2"
+                        data-aos-delay="300"
+                    >Rather than being developed by one of the richest companies in the world, Ubuntu touch is fully developed by
+                        the community of users.</p>
+                    <p
+                        data-aos="fade-left"
+                        data-aos-anchor="#homeMedia2"
+                        data-aos-delay="450"
+                    >As a consequence the system is developed with the sole purpose of giving the best and most secure user
+                        experience possible, while traditional systems balance these concern against profit.</p>
+                </div>
+                <!-- Img -->
+                <div class="home-media__img">
+                    <img
+                        src="/theme_kaizen/static/img/homepage/media-2-mobile.jpg"
+                        alt="media-img"
+                    />
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

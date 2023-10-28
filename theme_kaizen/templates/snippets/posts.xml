@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_posts" name="Posts">
+        <section class="snippet_kaizen_posts home-posts">
+            <div class="container">
+                <!-- Heading -->
+                <h3>Latest updates</h3>
+                <!-- Slider -->
+                <div class="home-posts__slider" contenteditable="false">
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
