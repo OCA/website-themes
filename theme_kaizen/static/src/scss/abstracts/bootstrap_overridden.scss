@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------------------------------------------------
+// This file should contain Bootstrap SCSS Variables ONLY which ar NOT defined as Odoo SCSS variables (primary variables),
+// and therefore used and customizable by the website editor.
+// Otherwise the editor might break!
+// Please read the note at the end of this file.
+// -----------------------------------------------------------------------------------------------------------------------
+//
+// Container Sizes
+$container-large: 1300px;
+//
+// Extra Colors
+$extra-1: #19a6d3;
+$extra-2: #6dc57d;
+$extra-3: #b7ecc7;
+$extra-4: #f88745;
+$extra-6: #c056b8;
+$extra-7: #6e1054;
+$extra-8: #310523;
+$extra-9: #666666;
+$extra-10: #b2b2b2;
+$extra-11: #e5e5e5;
+$extra-12: #f88745;
+$extra-13: #72c47b;
+$extra-14: #19a7d4;
+$extra-15: #ca60bb;
+
+// Ubuntu Colors
+$ubuntu-purple: #7d1f4d;
+$ubuntu-purple-light: #8b3583;
+$ubuntu-purple-dark: #3a0628;
+$ubuntu-orange: #e95420;
+$off-white: #f4f4f4;
+$gray-light: #d8d8d8;
+
+// Add extra colors to Bootstrap theme colors
+$theme-colors: (
+    "extra-1": $extra-1,
+    "extra-2": $extra-2,
+    "extra-3": $extra-3,
+    "extra-4": $extra-4,
+    "extra-6": $extra-6,
+    "extra-7": $extra-7,
+    "extra-8": $extra-8,
+    "extra-9": $extra-9,
+    "extra-10": $extra-10,
+    "extra-11": $extra-11,
+    "extra-12": $extra-12,
+    "extra-13": $extra-13,
+    "extra-14": $extra-14,
+    "extra-15": $extra-15,
+);
+
+
+// /!\
+// This file is meant to regroup your bootstrap customizations. In that file,
+// you must define variables *ONLY*. If you want to introduce new CSS rules
+// for your website, check the 'user_custom_rules.scss' file you can also edit.
+// /!\
+//
+// You can change the value of a variable you can find in the bootstrap 4
+// documentation (or in the file /web/static/lib/bootstrap/scss/_variables.scss)
+// and Odoo will automatically adapt its design to your new bootstrap. For
+// example, doing this will make some shadows and gradients appear, especially
+// for your buttons design:
+//
+// $enable-shadows: true;
+// $enable-gradients: true;
+//
+// Notice that Odoo already overrides bootstrap variables according to your
+// choices in the "Customize Theme" dialog, you should first take a look at
+// it and do customizations this way. Indeed, if you overridde the same
+// variables, Odoo will either have to ignore them or not be able to make
+// the "Customize Theme" dialog work for these variables anymore.
+//

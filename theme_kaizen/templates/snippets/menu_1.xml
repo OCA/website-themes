@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_menu_1" name="Special Menu 1">
+        <section class="s_mega_menu_multi_menus snippet_kaizen_menu_1">
+            <div class="container">
+                <!-- Header Banner -->
+                <div class="header-banner">
+                    <p
+                    >We dare to dream about a future where users, developers and companies alike can define smart-phones
+                        together.</p>
+                </div>
+                <!-- Header Links -->
+                <div class="header-links">
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                Daily Announcements
+                            </p>
+                        </div>
+                        <div>
+                            <a
+                                class="header-dropdown-link"
+                                href="#"
+                            >Telegram New Channel</a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">Mastodon</a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">Twitter</a>
+                        </div>
+                    </div>
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                Ethos
+                            </p>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Manifesto
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Privacy concern
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Transparency
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                Foundation
+                            </p>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                About
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Governance and Membership
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Sponsors
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

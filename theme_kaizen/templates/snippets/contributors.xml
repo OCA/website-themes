@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_contributors" name="Contributors">
+        <section class="snippet_kaizen_contributors home-contributors">
+            <div class="container">
+                <!-- Heading -->
+                <h3>Team &amp; Individual Contributers</h3>
+                <!-- Slider -->
+                <div class="home-contributors__slider">
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <!-- Card -->
+                                <a href="#" class="card js_keep_html">
+                                    <!-- Text -->
+                                    <div class="card__text">
+                                        <h4>Sony Xperia X</h4>
+                                        <p>By Neothethird</p>
+                                    </div>
+                                    <!-- Icon -->
+                                    <div class="card__icon">
+                                        <img
+                                            class="angle-icon-gradient"
+                                            src="/theme_kaizen/static/img/icons/angle-icon-gradient.svg"
+                                            alt="angle-icon"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Line -->
+                <div class="line" />
+            </div>
+        </section>
+    </template>
+</odoo>

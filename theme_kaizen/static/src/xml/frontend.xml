@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <div class="swiper-slide" t-name="theme_kaizen.PostSlide">
+        <!-- Post -->
+        <a t-attf-href="/blog/#{post.blog_id[0]}/post/#{post.id}" class="home-post">
+            <p>
+                <t t-esc="post.blog_id[1]" />
+            </p>
+            <h3 class="light">
+                <t t-esc="post.name" />
+            </h3>
+            <div class="line" />
+            <p>Read More</p>
+        </a>
+    </div>
+</templates>

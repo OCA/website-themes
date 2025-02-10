@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_discussions" name="Discussions">
+        <div class="snippet_kaizen_discussions">
+            <div class="page-discussions" id="discussions">
+                <h2 class="h3 light">Discussions</h2>
+                <!-- Group -->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/yumi.svg"
+                                alt="yumi-icon"
+                                class="social-media-icon"
+                            />
+                            Forum OS Selection
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/yumi.svg"
+                                alt="yumi-icon"
+                                class="social-media-icon"
+                            />
+                            Forum Porting
+                        </a>
+                    </li>
+                </ul>
+                <!-- Group -->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/telegram.svg"
+                                alt="telegram-icon"
+                                class="social-media-icon"
+                            />
+                            Porting
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/telegram.svg"
+                                alt="telegram-icon"
+                                class="social-media-icon"
+                            />
+                            Lomiri Dev
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/telegram.svg"
+                                alt="telegram-icon"
+                                class="social-media-icon"
+                            />
+                            Core Dev
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/telegram.svg"
+                                alt="telegram-icon"
+                                class="social-media-icon"
+                            />
+                            Halium Project
+                        </a>
+                    </li>
+                </ul>
+                <!-- Group -->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/irc.svg"
+                                alt="irc-icon"
+                                class="social-media-icon"
+                            />
+                            Core
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img
+                                src="/theme_kaizen/static/img/icons/irc.svg"
+                                alt="irc-icon"
+                                class="social-media-icon"
+                            />
+                            Core Apps
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </template>
+</odoo>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_content_listing" name="Content Listing">
+        <div class="snippet_kaizen_content_listing">
+            <div class="d-flex align-items-start mb-4">
+                <img
+                    src="/theme_kaizen/static/img/page/icon-1.svg"
+                    alt="icon"
+                    class="mr-4"
+                    style="width: 30px"
+                />
+                <div>
+                    <h4>Company Philosophy</h4>
+                    <p
+                    >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you
+                        trying to learn a new skill or get better at something you already know how to do? Are you looking for
+                        something to add to your CV for volunteering and community engagement? Maybe you just really love the
+                        mobile platform and want to see it thrive. </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-start mb-4">
+                <img
+                    src="/theme_kaizen/static/img/page/icon-2.svg"
+                    alt="icon"
+                    class="mr-4"
+                    style="width: 30px"
+                />
+                <div>
+                    <h4>Code of conduct</h4>
+                    <p
+                    >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you
+                        trying to learn a new skill or get better at something you already know how to do? Are you looking for
+                        something to add to your CV for volunteering and community engagement? Maybe you just really love the
+                        mobile platform and want to see it thrive. </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-start mb-4">
+                <img
+                    src="/theme_kaizen/static/img/page/icon-3.svg"
+                    alt="icon"
+                    class="mr-4"
+                    style="width: 30px"
+                />
+                <div>
+                    <h4>We are an Agile team</h4>
+                    <p
+                    >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you
+                        trying to learn a new skill or get better at something you already know how to do? Are you looking for
+                        something to add to your CV for volunteering and community engagement? Maybe you just really love the
+                        mobile platform and want to see it thrive. </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-start">
+                <img
+                    src="/theme_kaizen/static/img/page/icon-1.svg"
+                    alt="icon"
+                    class="mr-4"
+                    style="width: 30px"
+                />
+                <div>
+                    <h4>Recognition</h4>
+                    <p
+                    >Whatever your goals are, we're here to help you be successful, no matter your measure of success. Are you
+                        trying to learn a new skill or get better at something you already know how to do? Are you looking for
+                        something to add to your CV for volunteering and community engagement? Maybe you just really love the
+                        mobile platform and want to see it thrive. </p>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

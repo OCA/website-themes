@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_menu_2" name="Special Menu 2">
+        <section class="s_mega_menu_multi_menus snippet_kaizen_menu_2">
+            <div class="container">
+                <!-- Header Links -->
+                <div class="header-links">
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                For Developers
+                            </p>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">Development Hub</a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Halium Project
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Forum Section
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Core
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Porting
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                For Designers
+                            </p>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">Design Hub</a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Guidliness
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Grid
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/external-link.svg"
+                                    alt="external-link-icon"
+                                />
+                                Icons
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Group -->
+                        <div class="header-links-group mb-4">
+                            <div>
+                                <p class="header-dropdown-link bold">
+                                    <img
+                                        src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                        alt="bullet-icon"
+                                    />
+                                    For Testers &amp; Writers
+                                </p>
+                            </div>
+                            <div>
+                                <a
+                                    class="header-dropdown-link"
+                                    href="#"
+                                >Tester's Hub</a>
+                            </div>
+                            <div>
+                                <a class="header-dropdown-link" href="#">
+                                    <img
+                                        src="/theme_kaizen/static/img/icons/external-link.svg"
+                                        alt="external-link-icon"
+                                    />
+                                    Quality Assurance
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Group -->
+                        <div class="header-links-group">
+                            <div>
+                                <p class="header-dropdown-link bold">
+                                    <img
+                                        src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                        alt="bullet-icon"
+                                    />
+                                    For Marketers
+                                </p>
+                            </div>
+                            <div>
+                                <a
+                                    class="header-dropdown-link"
+                                    href="#"
+                                >Marketers Hub</a>
+                            </div>
+                            <div>
+                                <a class="header-dropdown-link" href="#">
+                                    <img
+                                        src="/theme_kaizen/static/img/icons/external-link.svg"
+                                        alt="external-link-icon"
+                                    />
+                                    Marketing Incubator
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- Group -->
+                        <div class="header-links-group mb-4">
+                            <div>
+                                <p class="header-dropdown-link bold">
+                                    <img
+                                        src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                        alt="bullet-icon"
+                                    />
+                                    For Communites
+                                </p>
+                            </div>
+                            <div>
+                                <a
+                                    class="header-dropdown-link"
+                                    href="#"
+                                >Communities Hub</a>
+                            </div>
+                            <div>
+                                <a
+                                    class="header-dropdown-link"
+                                    href="#"
+                                >Community Values</a>
+                            </div>
+                        </div>
+                        <!-- Group -->
+                        <div class="header-links-group">
+                            <div>
+                                <p class="header-dropdown-link bold">
+                                    <img
+                                        src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                        alt="bullet-icon"
+                                    />
+                                    For All
+                                </p>
+                            </div>
+                            <div>
+                                <a class="header-dropdown-link" href="#">Overview</a>
+                            </div>
+                            <div>
+                                <a
+                                    class="header-dropdown-link"
+                                    href="#"
+                                >Life in the community</a>
+                            </div>
+                            <div>
+                                <a
+                                    class="header-dropdown-link"
+                                    href="#"
+                                >Ubuntu Touch Support</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Banner -->
+                <div class="header-banner">
+                    <h3>It’s your time to shine</h3>
+                    <p
+                    >No matter what your background is or where you live, you can hope on board and join us in the battle
+                        of freedom.</p>
+                    <button
+                        class="btn btn-outline-light btn-rounded"
+                    >Hub Center</button>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

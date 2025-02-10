@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="snippet_menu_3" name="Special Menu 3">
+        <section class="s_mega_menu_multi_menus snippet_kaizen_menu_3">
+            <div class="container">
+                <!-- Header Banner -->
+                <div class="header-banner">
+                    <img
+                        class="d-none d-md-block"
+                        src="/theme_kaizen/static/img/header/community-banner.jpg"
+                        alt="banner-img"
+                    />
+                    <div>
+                        <p
+                        >Our telegram group is a meeting point for people who shape the direction of Ubuntu Touch.</p>
+                        <p class="d-none d-md-block">We recommend you start <a
+                                href="#"
+                                class="link"
+                            >there</a>.</p>
+                    </div>
+                </div>
+                <!-- Header Links -->
+                <div class="header-links">
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                Telegram Main Groups
+                            </p>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">Overflow</a>
+                        </div>
+                        <div>
+                            <a
+                                class="header-dropdown-link"
+                                href="#"
+                            >UX &amp; Graphics</a>
+                        </div>
+                        <div>
+                            <a
+                                class="header-dropdown-link"
+                                href="#"
+                            >Company [English]</a>
+                        </div>
+                    </div>
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                Discussions
+                            </p>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                Nice Form
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                Reddit
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                #Matrix On Freenode
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Group -->
+                    <div class="header-links-group">
+                        <div>
+                            <p class="header-dropdown-link bold">
+                                <img
+                                    src="/theme_kaizen/static/img/icons/bullet-gradient.svg"
+                                    alt="bullet-icon"
+                                />
+                                Blog &amp; Live
+                            </p>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                Audiocast
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                Previous QA
+                            </a>
+                        </div>
+                        <div>
+                            <a class="header-dropdown-link" href="#">
+                                Blog
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

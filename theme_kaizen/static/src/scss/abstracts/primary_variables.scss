@@ -1,0 +1,65 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Odoo SCSS variables and mixins
+// -----------------------------------------------------------------------------
+
+
+//------------------------------------------------------------------------------
+// Website customizations
+//------------------------------------------------------------------------------
+
+$o-website-values-palettes: (
+    (
+        // Font
+        'font':                             'ubuntu',
+        'headings-font':                    'ubuntu',
+        'navbar-font':                      'ubuntu',
+        'buttons-font':                     'ubuntu',
+
+        // Buttons
+        'btn-primary-outline': true,
+        'btn-secondary-outline': false,
+    ),
+);
+
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+$o-theme-font-configs: (
+   'ubuntu': (
+        'family': ('ubuntu', sans-serif),
+    ),
+   'ubuntu-mono': (
+        'family': ('ubuntu-mono', sans-serif),
+    ),
+);
+
+
+//------------------------------------------------------------------------------
+// Colors
+//------------------------------------------------------------------------------
+
+$o-color-palettes: (
+    (   // Palette 1
+        // $ubuntu-purple:
+        'o-color-1': #7d1f4d,
+        // $ubuntu-purple-light:
+        'o-color-2': #8b3583,
+        // $ubuntu-purple-dark:
+        'o-color-3': #3a0628,
+        // white:
+        'o-color-4': #d8d8d8,
+        // $ubuntu-orange:
+        'o-color-5': #e95420,
+
+        'o-cc1-bg': #FFFFFF,
+        'o-cc1-text': #212529,
+        'o-cc1-headings': #212529,
+        'o-cc1-link': #4b39ff,
+        'o-cc1-btn-primary': 'o-color-2',
+        'o-cc1-btn-secondary': 'o-color-1',
+    ),
+);
+
+
